@@ -1,0 +1,7 @@
+Title: Computability and uniformity in ergodic theory
+
+Speaker: Jeremy Avigad
+
+Abstract: The pointwise and mean ergodic theorems assert the convergence of sequences of ergodic averages. It has long been known that there are no uniform bounds on the rate of convergence: a sequence of ergodic averages can converge arbitrarily slowly, even if we fix the norm of the starting element and the measure-preserving system in question. Even more disconcertingly, in general it is not possible to compute the limit of the sequence from the initial data, which means that even though we may be able compute the sequence of averages in an appropriate sense, we cannot in general determine when the sequence is close to its limit.
+
+In this talk, I will discuss equivalent ways of expressing convergence, and show that for these equivalent expressions, uniform and computable bounds can often be obtained. In particular, I will discuss a recent result with Jason Rute that shows that there are explicit and uniform bounds on the number of oscillations in a sequence of ergodic averages in a uniformly convex Banach space. I will also discuss a recent result with José Iovino that shows that there are uniform bounds on the rate of metastability in even more general contexts.

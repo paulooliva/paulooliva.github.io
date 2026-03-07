@@ -1,0 +1,38 @@
+	<HTML><HEAD><TITLE>
+
+Jugs
+
+	</TITLE> </HEAD><BODY BGCOLOR="white">
+	<TABLE WIDTH = 700><TR><TD WIDTH = 125></TD></TR><TR><TD> Title: </TD><TD>
+
+<A HREF="00571.html">
+Jugs
+
+	</A></TD></TR><TR><TD>
+Source:</TD><TD>
+Spanish Site #00571
+	</TD></TR><TR><TD>
+
+Classification:</TD><TD>
+Arithmetic
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Problem Notes:</TD> <TD>
+  As it stands the problem is not very difficult.  A more interesting problem is to find the optimal solution.
+
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Technical Notes: </TD><TD>
+  Simple I/O and variable manipulation.
+
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Solution: </TD><TD>
+
+Although a breadth-first search through the possibilites would solve this problem, a more elegant approach is to notice that there are only two ways of "moving".  Either we fill A all the time and pour it over to B, or fill B all the time and pour it over to A.  Because A and B are relatively prime, this means that we can generate all possible values from 0 to capacity of B.  The reasoning behind this is that the left over difference will always be a multiple of the greatest common divisor of the two capacities.  By moving in either two of these methods though means that we will cycle through all possible values of amount of water in B, therefore we can just simulate until that point.
+	</TD></TR><TR VALIGN = "TOP"><TD>
+
+Solution Code: </TD><TD>
+<A HREF="00571code1.html">Gilbert Lee</A>
+
+	</TD></TD></TR></TABLE></BODY></HTML>

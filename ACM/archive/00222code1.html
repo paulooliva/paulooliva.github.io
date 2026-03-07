@@ -1,0 +1,70 @@
+	<HTML><HEAD><TITLE>
+00222 - Budget Travel
+	</TITLE></HEAD><BODY><PRE>
+00222 - Budget Travel
+(Gilbert Lee)
+
+#include &lt;stdio.h&gt;
+
+typedef struct{
+  double d, c;
+} Station;
+
+Station s[55];
+double costs[55];
+double dist, cap,  mpg, maxdist;
+int n;
+
+double min(double a, double b){ return a < b ? a : b;}
+
+
+/* Best solution after filling up at station x */
+double GetCost(int x){
+  int i, found, last;
+  double addon;
+  double delta;
+
+  if(costs[x] != -1) return costs[x];
+  costs[x] = 0;
+  if(dist-s[x].d > maxdist){
+    addon = 9999999;
+    found = 0;
+    last = x+1;
+    for(i = x+1; i <= n; i++){
+      delta = s[i].d - s[x].d;
+      if(delta < maxdist/2.0){
+        last = i;
+        continue;
+      }
+      if(delta > maxdist) break;
+      found = 1;
+      addon = min(addon, (delta*s[i].c)/(mpg*100.0) + 2.00 +GetCost(i));
+    }
+    if(!found){
+      addon = min(addon, (delta*s[last].c)/(mpg*100.0) + 2 + GetCost(last));
+    }
+    costs[x] = addon;
+  }
+  return costs[x];
+}
+
+
+int main(){
+  int tnum =1, i;
+
+  while(scanf("%lf", &dist) == 1 && dist != -1){
+    printf("Data Set #%d\n", tnum++);
+    scanf("%lf %lf %lf %d", &cap, &mpg, &s[0].c, &n);
+    maxdist = cap*mpg;
+    s[0].d = 0;
+    s[0].c -= 2.00;
+    costs[0] = -1;
+    for(i = 1; i <= n; i++){
+      scanf("%lf %lf", &s[i].d, &s[i].c);
+      costs[i] = -1;
+    }
+    printf("minimum cost = $%.2f\n", GetCost(0)+s[0].c+2);
+  }
+  return 0;
+}
+	</PRE></BODY></HTML>

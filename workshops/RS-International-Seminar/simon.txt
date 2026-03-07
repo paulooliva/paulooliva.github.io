@@ -1,0 +1,10 @@
+Title: Ergodic Theory and Games of Incomplete Information
+
+Speaker: Robert Simon
+
+Abstract: There is a connection between ergodic theory and the equilibria of games where the players hold
+private information and the possibilities of what they can know are uncountably infinite. These are like
+games of poker, but with infinitely many cards. The knowledge of the players can correspond to measure
+preserving transformations, and the group of these transformations can act on any equilibrium in a way so
+that they cannot be measurable.  We explore what is known so far in the last ten years and where this line
+of research may go in the future.

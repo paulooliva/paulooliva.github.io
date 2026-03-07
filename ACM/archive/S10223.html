@@ -1,0 +1,75 @@
+	<HTML><HEAD><TITLE>
+
+How Many Nodes?
+
+	</TITLE> </HEAD><BODY BGCOLOR="white">
+	<TABLE WIDTH = 700><TR><TD WIDTH = 125></TD></TR><TR><TD> Title: </TD><TD>
+
+<A HREF="10223.html">
+How Many Nodes?
+
+	</A></TD></TR><TR><TD>
+Source:</TD><TD>
+Spanish Site #10223
+	</TD></TR><TR><TD>
+
+Classification:</TD><TD>
+Arithmetic - Combinatorics
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Problem Notes:</TD> <TD>
+
+  <B>Catalan Numbers</B> occur frequently in combinatorial problems:<br>
+  The general form is:<br>
+                      <img src = "prob0004a.gif"><br>
+  The first few are: 1, 2, 5, 14, 42, 132, 429, 1430, 4862,...<br>
+  Other things they count are:<br>
+  <ul>
+  <li> Number of ways a (<i>n</i>+2) polygon can be cut into <i>n</i> triangles<br>
+       <img src = "prob0004b.gif"></li>
+  <li> Number of ways parenthesis can be placed in a sequence of <i>n</i>+1 numbers to be multiplied.<br>
+  	   (1 (2 (3 4)))<br>
+  	   (1 ((2 3) 4))<br>
+  	   ((1 2) (3 4))<br>
+  	   ((1 (2 3)) 4)<br>
+  	   (((1 2) 3) 4)<br></li>
+  <li> Number of ways paths of length 2<i>n</i> though a <i>n</i> by <i>n</i> grid that do not rise above the main diagonal<br>
+       <img src = "prob0004c.gif"></li>
+  </ul>
+  (diagrams from http://www-groups.dcs.st-andrews.ac.uk/~history/Miscellaneous/CatalanNumbers/catalan.html)<br>
+
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Technical Notes: </TD><TD>
+
+  The input output for the problem is straightfoward.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Solution: </TD><TD>
+
+  Method 1: <br>
+  Pre-enter the first 19 Catalan Numbers into an array and then match<p>
+
+  Method 2: Dynamic Programming <br>
+  Inductive Reasoning:<br>
+  Base Case:<br>
+  <ul>
+  <li> with 0 nodes there is exactly 1 configuration </li>
+  <li> with 1 node there is exactly 1 configuration  </li>
+  </ul>
+  Inductive Step:<br>
+  Suppose we know the number of configurations of trees with <i>n</i> nodes - f(<i>n</i>)
+  For a tree with <i>n</i>+1 nodes, we can place the new node at the root, and then deal
+  with the left and right subtrees.	The number of nodes we can have on the left subtree ranges
+  from 0 to <i>n</i>, while the right subtree ranges from <i>n</i> to 0 accordingly.
+  However, we already know the number of configurations for all these possibilities, so it
+  is a simple summation of multiplications:
+  			f(<i>n</i>+1) =  <font face="symbol">S</font>(i=0 to <i>n</i>) f(i) &times; f(<i>n</i>-i).
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+
+Solution Code: </TD><TD>
+<A HREF="10223code1.html">Gilbert Lee - Dynamic Programming Solution</A>
+
+	</TD></TD></TR></TABLE></BODY></HTML>
+

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <meta name="GENERATOR" content="Adobe PageMill 3.0 Win">
+  <title>Untitled Document</title>
+  <style><!--A{text-decoration: none;}--></style>
+  <script language="JavaScript1.1">    
+var slideimages=new Array()
+var slidelinks=new Array()
+
+function slideshowimages(){
+    for (i=0;i<slideshowimages.arguments.length;i++){
+        slideimages[i] = new Image()
+        slideimages[i].src=slideshowimages.arguments[i]
+    }
+}
+
+function slideshowlinks(){
+    for (i=0;i<slideshowlinks.arguments.length;i++)
+    slidelinks[i] = slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+    if (!window.winslide||winslide.closed)
+    winslide = window.open(slidelinks[whichlink])
+    else
+    winslide.location = slidelinks[whichlink]
+    winslide.focus()
+}
+  </script>
+</head>
+<body style="background-color: rgb(139, 76, 57);" link="#ffffff"
+ vlink="#ffffff" alink="#ffffff">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<img src="pics/pbo-photo2.jpg" alt="" width="90" align="middle"
+ border="1">
+<!-- <a href="javascript:gotoshow()"><img src="pics/pbo-photo1.jpg" name="slide" width="90" border="1"></a> -->
+<p>&nbsp;</p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a
+ href="welcome.html" target="Frame1131">Welcome</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><br>
+<a href="research.html" target="Frame1131">Research</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a
+ href="publications.html" target="Frame1131">Publications</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a
+ href="activities.html" target="Frame1131">Roles</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a
+ href="away.html" target="Frame1131">Talks</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2">
+<a href="ACM/index.html" target="_blank">ICPC ACM</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><br>
+<a href="caric/index.html" target="Frame1131">Drawings</a></font></b></p>
+<!-- <p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a href="fotos/fotos.html" target="Frame1131">Pictures</a></font></b></p> -->
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a
+ href="quotes.html" target="Frame1131">Quotes</a></font></b></p>
+<p><b><font face="Geneva, Arial, Helvetica, san-serif" size="2"><a
+ href="bookmarks.html" target="Frame1131">Bookmarks</a></font></b></p>
+<script>
+//configure the paths of the images, plus corresponding target links
+slideshowimages("pics/pbo-photo1.jpg","pics/pbo-photo2.jpg","pics/pbo-photo3.jpg")
+
+slideshowlinks("","","","")
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=6000
+
+var whichlink=0
+var whichimage=0
+
+function slideit(){
+    if (!document.images) return
+    document.images.slide.src = slideimages[whichimage].src
+    whichlink = whichimage
+    if (whichimage<slideimages.length-1)
+    whichimage++
+    else
+    whichimage = 0
+    setTimeout("slideit()",slideshowspeed)
+}
+
+slideit()
+</script>
+</body>
+</html>

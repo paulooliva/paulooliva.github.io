@@ -1,0 +1,8 @@
+Title: A cubical set model for the Univalent Foundation
+
+Speaker: Thierry Coquand
+
+Abstract: We present a constructive model of type theory using cubical set.
+This model is effective and can be seen as a generalization of Takeuti-Gandy
+explanation of the axiom of extensionality. It also provides a new interpretation
+of the axiom of description.

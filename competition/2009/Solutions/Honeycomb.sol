@@ -1,0 +1,11 @@
+The distance between cells 19 and 30 is 5.
+The distance between cells 2778 and 887 is 32.
+The distance between cells 8336 and 7794 is 80.
+The distance between cells 6650 and 493 is 49.
+The distance between cells 28 and 2363 is 25.
+The distance between cells 7764 and 60 is 55.
+The distance between cells 3427 and 541 is 40.
+The distance between cells 5212 and 5737 is 13.
+The distance between cells 6430 and 2568 is 20.
+The distance between cells 2863 and 1531 is 42.
+The distance between cells 3136 and 4068 is 69.

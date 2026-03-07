@@ -1,0 +1,46 @@
+	<HTML><HEAD><TITLE>
+
+Triangular Vertices
+
+	</TITLE> </HEAD><BODY BGCOLOR="white">
+	<TABLE WIDTH = 700><TR><TD WIDTH = 125></TD></TR><TR><TD> Title: </TD><TD>
+
+<A HREF="00209.html">
+Triangular Vertices
+
+	</A></TD></TR><TR><TD>
+Source:</TD><TD>
+Spanish Site #00209
+	</TD></TR><TR><TD>
+
+Classification:</TD><TD>
+Modelling/Simulation
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Problem Notes:</TD> <TD>
+A topic that occurs frequently are different coordinate systems, such as triangles, squares, hexagons etc.
+Here we deal with triangular coordinates
+
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Technical Notes: </TD><TD>
+
+Simple number manipulations.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Solution: </TD><TD>
+
+First consider a 3-D coordinate system (x,y,z), x = the row of the element, y = the column of the element
+counting from the left, z = the column of the element counting from the right.  Each of these coordinates
+represent a line, so we now have an easy way to check if two points are collinear.  Now note that in
+order for there to be a triangle, the # of different x-values = # of different y-values = # of different z-values = 2.
+For a quadrilateral, we have two coordinates that have cardinality 2, and one with 3.  For a
+hexagon, we have all three coordinates with 3 different values.  By a simple count of unique x,y,z coordinates,
+we can then check the figures.  Note that this covers the irregular hexagon.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+
+Solution Code: </TD><TD>
+<A HREF="00209code1.html">Gilbert Lee</A>
+
+	</TD></TD></TR></TABLE></BODY></HTML>

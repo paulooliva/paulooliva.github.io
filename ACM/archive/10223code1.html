@@ -1,0 +1,32 @@
+  <HTML><HEAD><TITLE>
+10223 - How Many Nodes? Solution
+  </TITLE> </HEAD><BODY>
+<PRE>
+10223 - How Many Nodes? Solution
+(Gilbert Lee)
+
+#include &lt;stdio.h&gt;
+
+double sol[22];
+int ssize;
+
+
+int main(){
+  int i,j,n;
+  sol[0] = 1;
+  for(ssize = 1; ssize < 22; ssize++){
+    for(j = 0; j < ssize; j++){
+      sol[ssize] += sol[j]*sol[ssize-1-j];
+    }
+  }
+  while(scanf("%d", &n) ==1){
+    for(i = 1; i < 22; i++){
+      if(sol[i] == n){
+        printf("%d\n", i);
+        break;
+      }
+    }
+  }
+  return 0;
+}
+</PRE></BODY></HTML>

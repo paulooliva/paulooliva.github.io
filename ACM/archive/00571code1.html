@@ -1,0 +1,50 @@
+	<HTML><HEAD><TITLE>
+00571 - Jugs Solution
+	</TITLE></HEAD><BODY><PRE>
+00571 - Jugs Solution Code:
+
+Solution Code:   </TD> <TD><PRE>
+(Gilbert Lee)
+
+#include &lt;stdio.h&gt;
+
+int main(){
+  int ca, cb, n, a, b;
+
+  while(scanf("%d %d %d", &ca, &cb, &n)==3){
+    a = b = 0;
+    while(1){
+      printf("fill A\n");
+      printf("pour A B\n");
+      a = 0;
+      b += ca;
+      if(b > cb){
+        a = b-cb;
+        b = cb;
+      }
+      if(b == n) break;
+      if(b == cb){
+        printf("empty B\n");
+        b = 0;
+      }
+      while(a){
+        printf("pour A B\n");
+        b += a;
+        a = 0;
+        if(b > cb){
+          a = b-cb;
+          b = cb;
+        }
+        if(b == n) break;
+        if(b == cb){
+          printf("empty B\n");
+          b = 0;
+        }
+      }
+      if(b == n) break;
+    }
+    printf("success\n");
+  }
+  return 0;
+}
+</PRE></BODY></HTML>

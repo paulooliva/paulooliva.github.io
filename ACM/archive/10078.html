@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0035)http://acm.uva.es/p/v100/10078.html -->
+<HTML xmlns="http://www.w3.org/TR/REC-html40" xmlns:v = 
+"urn:schemas-microsoft-com:vml" xmlns:o = 
+"urn:schemas-microsoft-com:office:office" xmlns:w = 
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem D - The Art Gallery</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=Word.Document name=ProgId>
+<META content="MSHTML 6.00.2712.300" name=GENERATOR>
+<META content="Microsoft Word 9" name=Originator><LINK 
+href="./d_files/filelist.xml" rel=File-List><LINK href="./d_files/editdata.mso" 
+rel=Edit-Time-Data><LINK href="./d_files/oledata.mso" rel=OLE-Object-Data><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Rezaul Alam Chowdhury</o:Author>
+  <o:LastAuthor>Administrator</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>61</o:TotalTime>
+  <o:LastPrinted>1999-05-07T21:27:00Z</o:LastPrinted>
+  <o:Created>2001-01-10T16:25:00Z</o:Created>
+  <o:LastSaved>2001-01-10T16:25:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>226</o:Words>
+  <o:Characters>1292</o:Characters>
+  <o:Company>CSE, BUET</o:Company>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1586</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<STYLE>@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in 1.25in; mso-header-margin: .5in; mso-footer-margin: .5in; mso-paper-source: 0; }
+P.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; COLOR: black; FONT-FAMILY: "Times New Roman"; mso-style-parent: ""; mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; COLOR: black; FONT-FAMILY: "Times New Roman"; mso-style-parent: ""; mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	FONT-SIZE: 12pt; MARGIN: 0in 0in 0pt; COLOR: black; FONT-FAMILY: "Times New Roman"; mso-style-parent: ""; mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+EM {
+	mso-bidi-font-style: normal
+}
+P.Preformatted {
+	FONT-SIZE: 10pt; MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: line; FONT-FAMILY: "Courier New"; mso-pagination: none; mso-fareast-font-family: "Times New Roman"; mso-style-name: Preformatted; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; mso-bidi-font-family: "Times New Roman"
+}
+LI.Preformatted {
+	FONT-SIZE: 10pt; MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: line; FONT-FAMILY: "Courier New"; mso-pagination: none; mso-fareast-font-family: "Times New Roman"; mso-style-name: Preformatted; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; mso-bidi-font-family: "Times New Roman"
+}
+DIV.Preformatted {
+	FONT-SIZE: 10pt; MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: line; FONT-FAMILY: "Courier New"; mso-pagination: none; mso-fareast-font-family: "Times New Roman"; mso-style-name: Preformatted; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; mso-bidi-font-family: "Times New Roman"
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+</HEAD>
+<BODY lang=EN-US style="tab-interval: .5in">
+<DIV class=Section1>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+style="mso-bidi-font-weight: normal"><FONT size=5>Problem 
+D</FONT></SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+style="mso-bidi-font-weight: normal"><FONT size=6>The Art 
+Gallery</FONT></SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+style="mso-bidi-font-weight: normal">Input: </B><SPAN 
+style="mso-bidi-font-weight: bold">standard input<o:p></o:p></SPAN></P>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+style="mso-bidi-font-weight: normal">Output: </B>standard output</P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><I 
+style="mso-bidi-font-style: normal">Century Arts</I> has hundreds of art 
+galleries scattered all around the country and you are hired to write a program 
+that determines whether any of the galleries has a <I 
+style="mso-bidi-font-style: normal">critical point</I>. The galleries are 
+polygonal in shape and a <I style="mso-bidi-font-style: normal">critical 
+point</I> is a point inside that polygon from where the entire gallery is not 
+visible. </P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify">For example, in gallery 1 (drawn 
+below) point <I style="mso-bidi-font-style: normal">A</I> is a critical point, 
+but gallery 2 has no critical point at 
+all.</P><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+height=202 src="p10078.gif" width=415 v:shapes="_x0000_i1025"> 
+<P class=MsoNormal style="TEXT-INDENT: 0.5in; TEXT-ALIGN: justify"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify">The <I 
+style="mso-bidi-font-style: normal">Century Arts</I> authorities will provide 
+you with the shape of a gallery as a sequence of (<I 
+style="mso-bidi-font-style: normal">x</I>, <I 
+style="mso-bidi-font-style: normal">y</I>) co-ordinates (determined using a 
+suitable origin) of the consecutive corner points of that gallery. </P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><B 
+style="mso-bidi-font-weight: normal"><FONT size=5>Input</FONT></SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify">The input file consists of 
+several data blocks. Each data block describes one gallery. </P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify">The first line of a data block 
+contains an integer <EM>N</EM> (3 <SPAN 
+style="FONT-FAMILY: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-char-type: symbol; mso-symbol-font-family: Symbol"><SPAN 
+style="mso-char-type: symbol; mso-symbol-font-family: Symbol">£</SPAN></SPAN> <I 
+style="mso-bidi-font-style: normal">N</I> <SPAN 
+style="FONT-FAMILY: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-char-type: symbol; mso-symbol-font-family: Symbol"><SPAN 
+style="mso-char-type: symbol; mso-symbol-font-family: Symbol">£</SPAN></SPAN> 
+50) indicating the number of corner points of the gallery. Each of the next <I 
+style="mso-bidi-font-style: normal">N</I> lines contains two integers giving the 
+(<I style="mso-bidi-font-style: normal">x</I>, <I 
+style="mso-bidi-font-style: normal">y</I>) co-ordinates of a corner point where 
+0 <SPAN 
+style="FONT-FAMILY: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-char-type: symbol; mso-symbol-font-family: Symbol"><SPAN 
+style="mso-char-type: symbol; mso-symbol-font-family: Symbol">£</SPAN></SPAN> <I 
+style="mso-bidi-font-style: normal">x</I>, <I 
+style="mso-bidi-font-style: normal">y</I> <SPAN 
+style="FONT-FAMILY: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-char-type: symbol; mso-symbol-font-family: Symbol"><SPAN 
+style="mso-char-type: symbol; mso-symbol-font-family: Symbol">£</SPAN></SPAN> 
+1000. Starting from the first point given in the input the corner points occur 
+in the same order on the boundary of the gallery as they appear in the input. No 
+three consecutive points are co-linear.</P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify">The input file terminates with a 
+value of 0 for <I style="mso-bidi-font-style: normal">N</I>.</P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><B 
+style="mso-bidi-font-weight: normal"><FONT size=5>Output</FONT></SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify">For each gallery in the input 
+output the word "<I style="mso-bidi-font-style: normal">Yes"</I> if the gallery 
+contains a critical point, otherwise output the word "<I 
+style="mso-bidi-font-style: normal">No"</I>. Each output must be on a separate 
+line.</P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt"><![if !supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><B 
+style="mso-bidi-font-weight: normal"><FONT size=5>Sample 
+Input</FONT></SPAN></B></P><FONT face=Courier size=3>4<BR>0 0<BR>3 0<BR>3 3<BR>0 
+3<BR>4<BR>0 0<BR>3 0<BR>1 1<BR>0 3<BR>0<BR><BR></FONT>
+<P class=MsoNormal style="TEXT-ALIGN: justify"><B 
+style="mso-bidi-font-weight: normal"><FONT size=5>Sample 
+Output</FONT></SPAN></B></P><FONT face=Courier 
+size=3>No<BR>Yes<BR></FONT></DIV><FONT face="Times New Roman" 
+size=3>_________________________________________________________________________________________ 
+<BR>Rezaul Alam Chowdhury </FONT></BODY></HTML>

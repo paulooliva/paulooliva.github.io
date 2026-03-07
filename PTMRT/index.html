@@ -1,0 +1,59 @@
+<HTML>
+<title>PTMRT book chapter - Arthan / Oliva</title>
+<style>
+   pre.my_job
+   {
+      background-color : #d9e1eb;
+      font : small/1.2 "Courier New", courier, monospace;
+      text-align : left;
+      border : 2px solid;
+      border-color : darkred;
+      vertical-align : middle;
+      padding : 5px;  /* within box, all 4 sides */
+      margin : 10px;  /* outside of box, all 4 sides */
+      overflow : auto;
+   }
+
+   body
+   {
+      background-color: #ffeebb;
+      padding-left: 3em;
+      padding-right: 5em;
+   }
+</style>
+<body>
+<h1>Studying Algebraic Structures using Prover9 and Mace4</h1>
+<h3>R. Arthan and P. Oliva</h3>
+
+<p>In this page the reader can find the supporting material for the book chapter "Studying Algebraic Structures using Prover9 and Mace4".</p>
+
+<h2>Obtaining Prover9 and Mace4</h2>
+
+<p>In order to run the scripts below the reader should install the command line version of Prover9 and Mace4. These can be downloaded from <a href="https://www.cs.unm.edu/~mccune/mace4/download/">here</a>. These require a Unix-like operating system such as Linux or Mac OSX.</p>
+
+<h2>Obtaining the Supporting Material</h2>
+
+<p>The scripts used in this book chapter can be downloaded via the following links:</p>
+
+<ul>
+   <li><a href='section1-example-scripts.zip'>Section 1 scripts: Semilattices and hoops</a></li>
+   <li><a href='section2-example-scripts.zip'>Section 2 scripts: Advanced identities in hoops</a></li>
+</ul>
+
+<p>After downloading and unzipping these, the user should run make on one of the example folders.
+Run the following command to get a description of what the scripts do:</p>
+
+<pre class="my_job">$ make</pre>
+
+<p>Run the following command to run all the scripts in that example folder:</p>
+
+<pre class="my_job">$ make all</pre>
+
+<p>Please note that the section 1 scripts will run in just a few seconds, but the proof searches in the section 2 script can be expected to take about two hours. You need to run the scripts as described above to create the output files referred to in the book chapter.</p>
+
+<p>The make files by default assume prover9 and mace4 are in /usr/local/bin, you can overwrite this by setting the environment variable LADRBINDIR. For instance, if you have prover9 and mace4 on $HOME/bin/ you need to first run:</p>
+
+<pre class="my_job">$ export LADRBINDIR=$HOME/bin/</pre>
+
+</body>
+</HTML>

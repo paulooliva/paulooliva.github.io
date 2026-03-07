@@ -1,0 +1,7 @@
+Title: Towards a Polya-Carlson dichotomy in algebraic dynamics
+
+Speaker: Thomas Ward
+
+Abstract: Examples suggest that the dynamical zeta function of a compact group
+automorphism is either rational or has a natural boundary. We will discuss some
+of the issues that arise in trying to prove this statement.

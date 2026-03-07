@@ -1,0 +1,13 @@
+Title: Program extraction
+
+Speaker: Ulrich Berger
+
+Abstract: We give an overview of program extraction from constructive proofs
+based on a uniform version of realizability. "Uniform" means that the
+objects one quantifies over are not assumed to have computational
+content, hence a realizer of a universally quantified formula must be
+independent of the quantified variable. This style of realizability
+supports program extraction in abstract mathematics. We present (a
+constructive version of) Church's simple theory of types as a suitable
+formal framework for program extraction and discuss the realizabilty
+of various induction principles.

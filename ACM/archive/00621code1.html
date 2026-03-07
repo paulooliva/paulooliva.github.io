@@ -1,0 +1,42 @@
+	<HTML><HEAD><TITLE>
+00621 - Secret Research Solution
+	</TITLE></HEAD><BODY><PRE>
+00621 - Secret Research Solution Code:
+Solution Code:   </TD> <TD><PRE>
+(Gilbert Lee)
+
+#include &lt;stdio.h&gt;
+
+char buff[80];
+
+int etype(int l, int r){
+  int size = r-l;
+
+  if(size == 1 && (buff[l] == '1' || buff[l]=='4')) return 1;
+  if(size == 2 && (buff[l] == '7' && buff[l+1] == '8')) return 1;
+  if(size > 2 && buff[r-1] == '5' &&
+     buff[r-2] == '3' && etype(l, r-2)) return 2;
+  if(size > 2 && buff[l] == '9' &&
+     buff[r-1] == '4' && etype(l+1, r-1)) return 3;
+  if(size > 3 && buff[l] == '1' && buff[l+1] == '9' &&
+     buff[l+2] == '0' && etype(l+3, r)) return 4;
+  return 0;
+}
+
+int main(){
+  int n, x;
+
+  scanf("%d", &n);
+  while(n--){
+    scanf("%s", buff);
+    x = etype(0, strlen(buff));
+    switch(x){
+    case 1: printf("+\n"); break;
+    case 2: printf("-\n"); break;
+    case 3: printf("*\n"); break;
+    case 4: printf("?\n"); break;
+    }
+  }
+  return 0;
+}
+</PRE></BODY></HTML>

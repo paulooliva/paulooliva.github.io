@@ -1,0 +1,10 @@
+Title: Approximation of invariant measures for chaotic dynamical systems
+
+Speaker: Oscar Bandtlow
+
+Abstract: Invariant measures are important objects in the study of the
+long-term statistical behaviour of chaotic dynamical systems. There are
+very few cases where invariant measures with good statistical properties
+are known explicitly. As a result there is interest in robust approximation
+techniques. In this talk, I will give a survey of a number of methods and
+will discuss their merits and shortcomings.

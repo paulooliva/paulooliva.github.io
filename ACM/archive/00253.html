@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0031)http://acm.uva.es/p/v2/253.html -->
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds --><HTML><HEAD><TITLE>Cube painting</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="Cube painting" name=description>
+<META content=htmlatex name=keywords>
+<META content=document name=resource-type>
+<META content=global name=distribution>
+<META content="MSHTML 6.00.2712.300" name=GENERATOR></HEAD>
+<BODY lang=EN bgColor=#ffffff>
+<H1><BR clear=all>
+<CENTER>
+<TABLE bgColor=#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=#c0ffff size=5>&nbsp;<A 
+      name=SECTION0001000000000000000000>Cube 
+  painting</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>We have a machine for painting cubes. It is supplied with three different 
+colors: blue, red and green. Each face of the cube gets one of these colors. The 
+cube's faces are numbered as in Figure 1. 
+<P>
+<P><IMG height=240 alt=picture21 src="253img1.gif" width=255 
+align=bottom> 
+<P>
+<P>
+<P>Figure 1. 
+<P>Since a cube has 6 faces, our machine can paint a face-numbered cube in <IMG 
+height=15 alt=tex2html_wrap_inline126 src="253img2.gif" width=64 
+align=bottom> different ways. When ignoring the face-numbers, the number of 
+different paintings is much less, because a cube can be rotated. See example 
+below. We denote a painted cube by a string of 6 characters, where each 
+character is a <TT>b</TT>, <TT>r</TT>, or <TT>g</TT>. The <IMG height=15 
+alt=tex2html_wrap_inline128 src="253img3.gif" width=17 align=bottom> 
+character ( <IMG height=25 alt=tex2html_wrap_inline130 
+src="253img4.gif" width=68 align=middle> ) from the left gives the 
+color of face <I>i</I>. For example, Figure 2 is a picture of <TT>rbgggr</TT> 
+and Figure 3 corresponds to <TT>rggbgr</TT>. Notice that both cubes are painted 
+in the same way: by rotating it around the vertical axis by 90 <IMG height=6 
+alt=tex2html_wrap_inline134 src="253img5.gif" width=5 align=bottom> 
+, the one changes into the other. 
+<P><IMG height=282 alt=tex2html_wrap138 src="253img6.gif" width=257 
+align=bottom> <IMG height=282 alt=tex2html_wrap140 src="253img7.gif" 
+width=257 align=bottom> 
+<H2><FONT color=#0070e8><A 
+name=SECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The input of your program is a textfile that ends with the standard 
+end-of-file marker. Each line is a string of 12 characters. The first 6 
+characters of this string are the representation of a painted cube, the 
+remaining 6 characters give you the representation of another cube. Your program 
+determines whether these two cubes are painted in the same way, that is, whether 
+by any combination of rotations one can be turned into the other. (Reflections 
+are not allowed.) 
+<P>
+<H2><FONT color=#0070e8><A 
+name=SECTION0001002000000000000000>Output</A></FONT></H2>
+<P>The output is a file of boolean. For each line of input, output contains 
+<TT>TRUE</TT> if the second half can be obtained from the first half by rotation 
+as describes above, <TT>FALSE</TT> otherwise. 
+<P>
+<H2><FONT color=#0070e8><A name=SECTION0001003000000000000000>Sample 
+Input</A></FONT></H2>
+<P><PRE>rbgggrrggbgr
+rrrbbbrrbbbr
+rbgrbgrrrrrg</PRE>
+<P>
+<H2><FONT color=#0070e8><A name=SECTION0001004000000000000000>Sample 
+Output</A></FONT></H2>
+<P><PRE>TRUE
+FALSE
+FALSE</PRE>
+<P></P></BODY></HTML>

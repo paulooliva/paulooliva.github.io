@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0035)http://acm.uva.es/p/v102/10233.html -->
+<HTML><HEAD><TITLE>Dermuba Triangle</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=Triangle name=description>
+<META content="blends 011" name="Microsoft Theme">
+<META content="MSHTML 6.00.2712.300" name=GENERATOR></HEAD>
+<BODY lang=EN text=#000000 vLink=#0000ff aLink=#ff9900 link=#993300 
+bgColor=#cccccc background=""><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<CENTER>
+<P>&nbsp;</P></FONT>
+<TABLE bgColor=#0060f0>
+  <TBODY>
+  <TR>
+    <TD><FONT face="Trebuchet MS, Arial, Helvetica"><B><FONT 
+      color=#c0ffff size=5>Problem E: Dermuba 
+      Triangle</FONT></B></FONT></TR></TBODY></TABLE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></CENTER>
+<P align=justify>Dermuba Triangle is the universe-famous flat and triangular 
+region in the L-PAX planet in the Geometria galaxy. Actually nobody knows 
+whether the region is triangular or how it came into existence or how big it is. 
+But the people of Dermuba firmly believe that the region extends to infinity. 
+They live in equilateral triangular fields with sides exactly equal to 1km. 
+Houses are always built at the circumcentres of the triangular fields. Their 
+houses are numbered as shown in the figure below.
+<P align=center><IMG height=214 src="p10233.gif" width=248 border=0>
+<P align=justify>When Dermubian people wishes to visit each other, they follow 
+the shortest path from their house to the destination house. This shortest path 
+is obviously the straight line distance that connects these two houses. 
+Moreover, they also visit all the houses that lie in the straight line they 
+travel. Now, comes your task. You have to write a program which computes the 
+length of the shortest path between two houses given their house numbers.</FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P align=justify>Input consists of several lines with two non-negative integer 
+values <I><B>n</B></I> and <B><I>m</I></B> which specify the start and 
+destination house numbers.<I><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"> 
+n, m</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"> 
+2147483647</SPAN></B></I>. Actually, there are houses beyond this region, but 
+some seventh-sense people in Dermuba say that these houses are left for the dead 
+people.</FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P align=justify>For each line in the input, print the shortest distance between 
+the given houses in kilometers rounded off to three decimal places.</P></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>0 7
+2 8
+9 10
+10 11
+</PRE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>1.528
+1.528
+0.577
+0.577
+</PRE><FONT face="Trebuchet MS, Arial, Helvetica">
+
+<ADDRESS><I>Arun Kishore</I> </FONT></ADDRESS></BODY></HTML>

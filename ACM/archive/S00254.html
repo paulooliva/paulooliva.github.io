@@ -1,0 +1,77 @@
+	<HTML><HEAD><TITLE>
+
+Towers of Hanoi
+
+	</TITLE> </HEAD><BODY BGCOLOR="white">
+	<TABLE WIDTH = 700><TR><TD WIDTH = 125></TD></TR><TR><TD> Title: </TD><TD>
+
+<A HREF="00254.html">
+Towers of Hanoi
+
+	</A></TD></TR><TR><TD>
+Source:</TD><TD>
+Spanish Site #00254
+	</TD></TR><TR><TD>
+
+Classification:</TD><TD>
+Direct - Recursion
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Problem Notes:</TD> <TD>
+
+The Towers of Hanoi are usually covered in all introductory computing courses.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Technical Notes: </TD><TD>
+
+Big number manipulation.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Solution: </TD><TD>
+
+  Consider moving a pile of n disks from a source stack to another stack<br>
+  It requires 2^(n-1)-1 moves to move the pile of n-1 disks to a temp stack, 1 move to move
+  the bottom disk to the target stack, and another 2^(n-1)-1 moves to move the pile of n-1 disks
+  from the temp stack to the target stack. <br>
+  This means that 2^(n-1) move is the one that moves the bottom disk.  In binary terms, this means
+  the (n-1)th bit is set to 1.<br>
+  From this we can solve the problem recursively as follows: <br>
+  <br>
+  Here we use an example n=5 and moves = 26 = 11010 in binary.  Let A represent the source, B the
+  temp, and C the target pile of the initial problem.  (Note these stacks depends on the algorithm the
+  problem specifies)<br>
+
+<PRE>
+Moves=28= 1 1 0 1 0
+SOURCE    A           COUNT[A] = 0
+TEMP      B           COUNT[B] = 0
+DEST      C           COUNT[C] = 0
+</PRE>
+  Here the bit is set to 1, so we know that the last disk is now on the dest pile so we increment it's count.
+  Also, since the rest of the pile is on the temp, we swap the source and temp piles:
+<PRE>
+Moves=28= 1 1 0 1 0
+SOURCE    A B         COUNT[A] = 0
+TEMP      B A         COUNT[B] = 0
+DEST     [C]C         COUNT[C] = 1
+  </PRE>
+Repeating:<PRE>
+Moves=28= 1 1 0 1 0
+SOURCE    A B A       COUNT[A] = 0
+TEMP      B A B       COUNT[B] = 0
+DEST      C[C]C       COUNT[C] = 2</PRE>
+  Here the bit is set to 0, so we know the last disk stays on the source pile, now we flip the
+  dest and temp piles:
+  <PRE>
+Moves=28= 1 1 0 1 0
+SOURCE    A B[A]A     COUNT[A] = 1
+TEMP      B A B C     COUNT[B] = 0
+DEST      C C C B     COUNT[C] = 2</PRE>
+  It should be simple to see how the rest of the solution goes.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+
+Solution Code: </TD><TD>
+<A HREF="00254code1.html">Gilbert Lee</A>
+
+	</TD></TD></TR></TABLE></BODY></HTML>

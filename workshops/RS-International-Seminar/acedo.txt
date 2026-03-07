@@ -1,0 +1,18 @@
+Title: Metric fixed point theory
+
+Speaker: Genaro Lopez-Acedo
+
+Abstract: Kohlenbach [1] has recently proved  general logical meta-theorems which guarantee the
+extractability of uniform effective bounds for several results in the theory of non-expansive mappings.
+Fortunately this can be done writing new proofs without using logical concepts. Our purpose in this
+talk is twofold: first, we will introduce the basic results on Metric Fixed Point Theory [2] and then,
+as a case study of techniques developed by Kohlenbach, we obtain a uniform bound on the rate of
+asymptotic regularity for the Picard iterates of firmly non-expansive mappings [3].
+
+[1] U. Kohlenbach, Applied proof theory: Proof interpretations and their use in mathematics,
+    Springer Monographs in Mathematics, Springer-Verlag, Berlin-Heidelberg, 2008.
+
+[2] W.A. Kirk, B. Sims (eds.), Handbook of Metric Fixed Point Theory, Kluwer Academic Publishers, Boston, 2001.
+
+[3] D. Ariza-Ruiz, L. Leus ̧tean and G. L ́opez, Firmly nonexpansive mappings in geodesic spaces,
+    Trans. Amer. Math. Soc. (In Press). Available online at http://arxiv.org/abs/1203.1432.

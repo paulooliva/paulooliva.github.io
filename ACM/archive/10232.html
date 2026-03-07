@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0035)http://acm.uva.es/p/v102/10232.html -->
+<HTML><HEAD><TITLE>Bit-wise Sequence</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=Triangle name=description>
+<META content="blends 011" name="Microsoft Theme">
+<META content="MSHTML 6.00.2712.300" name=GENERATOR></HEAD>
+<BODY lang=EN text=#000000 vLink=#0000ff aLink=#ff9900 link=#993300 
+bgColor=#cccccc background=""><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<CENTER>
+<P>&nbsp;</P></FONT>
+<TABLE bgColor=#0060f0>
+  <TBODY>
+  <TR>
+    <TD><FONT face="Trebuchet MS, Arial, Helvetica"><B><FONT 
+      color=#c0ffff size=5>Problem D: Bit-wise 
+      Sequence</FONT></B></FONT></TR></TBODY></TABLE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></CENTER>
+<P align=justify>Dr. DoLots is an expert in number theory and he is currently 
+studying prime numbers. In fact, some people say that he has some formula which 
+can generate the prime numbers in increasing order. But, his formula needs to 
+order the non-negative integers according to the increasing number of ones in 
+their binary representation. That is, all non-negative integers with 
+<B><I>m</I></B> ones in their binary representation should be ordered before all 
+the non-negative integers with <B><I>m+1</I></B> ones.
+<P align=justiy>More formally, lets define the non-negative integer sequence 
+<B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">B<SUB>n</SUB></SPAN></I></B> 
+such that for every non-negative integers <B><I>m</I></B> and <B><I>n</I></B> 
+where 
+<B><I>n&lt;m</I></B>,&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1. either <B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">O(B<SUB>n</SUB>)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">&lt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"> 
+O(B<SUB>m</SUB>)</SPAN></I></B><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+2. or <B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">O(B<SUB>n</SUB>) 
+= O(B<SUB>m</SUB>)</SPAN></I></B> and <B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">B<SUB>n</SUB></SPAN></I></B><B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">&lt;</SPAN></I></B> 
+<B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">B<SUB>m</SUB></SPAN></I></B>.<BR>where 
+<B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">O(n)</SPAN></I></B> 
+is the number of ones in the binary representation of <B><I>n</I></B>.
+<P align=justify>Dr. DoLots wants you to write a program which computes the 
+value of <B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">B<SUB>n</SUB></SPAN></I></B> 
+for arbitrary values of <B><I>n</I></B>, <B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"> 
+n</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"> 
+2147483647</SPAN></I></B>. For simplicity, we consider only non-negative 
+integers less than 2147483648 to appear in the sequence. You might be wondering 
+why the doctor cannot do it himself. He is very busy and he wants to spent his 
+time on more important things (That is what he says, actually, he is a bit lazy, 
+but you can help him, can't you ?).</FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P>Input consists of several lines specifying one non-negative integer value for 
+<B><I>n</I></B>.</FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P>Output should follow the same format as the input except that <B><I>n</I></B> 
+is replaced by <B><I><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">B<SUB>n</SUB></SPAN></I></B>.</P></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>0
+1
+2
+31
+32
+</PRE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>0
+1
+2
+1073741824
+3
+</PRE><FONT face="Trebuchet MS, Arial, Helvetica">
+
+<ADDRESS><I>Arun Kishore</I> </FONT></ADDRESS></BODY></HTML>

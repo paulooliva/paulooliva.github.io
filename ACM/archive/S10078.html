@@ -1,0 +1,43 @@
+<HTML><HEAD><TITLE>
+
+The Art Gallery
+
+	</TITLE> </HEAD><BODY BGCOLOR="white">
+	<TABLE WIDTH = 700><TR><TD WIDTH = 125></TD></TR><TR><TD> Title: </TD><TD>
+
+<A HREF="10078.html">
+The Art Gallery
+
+	</A></TD></TR><TR><TD>
+Source:</TD><TD>
+Spanish Site #10078
+	</TD></TR><TR><TD>
+
+Classification:</TD><TD>
+  Geometry - convex polygons
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Problem Notes:</TD> <TD>
+
+  The definition of the art gallery matches that of a convex polygon.  A polygon is convex if for any two points selected within the polygon, the line connecting the two points is completely within the polygon.  Another way of looking at a convex polygon is that the interior angles are always less than 180&deg;
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Technical Notes: </TD><TD>
+
+  This problem involves Euclidean geometry, and requires some way of representing points.  Usually this is done with a structure called a Point consisting of two double values x and y.  This structure is used throughout the code archive.
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+Solution: </TD><TD>
+
+  Method 1: Convex Hull<br>
+  In the code archive, there is code that finds the convex hull of any polygon.  A convex hull can be though of the shape formed by a rubber band when placed around the polygon.  In order to check if the art gallery has no critical point, we can basically compute the convex hull, and check to see if it matches the polygon we had originally.<br>
+
+  Method 2: Interior angles <br>
+  Since the interior angles of a convex polygon are all less than 180&deg;, we can go around in the order as provided by input, and compute interior angles using trigonometry.<br>
+
+	</TD></TR><TR VALIGN = "TOP"><TD>
+
+Solution Code: </TD><TD>
+<A HREF="10078code1.html">Gilbert Lee</A>
+
+	</TD></TD></TR></TABLE></BODY></HTML>

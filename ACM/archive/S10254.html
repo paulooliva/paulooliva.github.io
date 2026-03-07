@@ -1,0 +1,44 @@
+  	<HTML><HEAD><TITLE>
+
+The Priest Mathematician
+
+  	</TITLE> </HEAD><BODY BGCOLOR="white">
+  	<TABLE WIDTH = 700><TR><TD WIDTH = 125></TD></TR><TR><TD> Title: </TD><TD>
+
+  <A HREF="10254.html">
+The Priest Mathematician
+
+  	</A></TD></TR><TR><TD>
+  Source:</TD><TD>
+Spanish Site #10254
+  	</TD></TR><TR><TD>
+
+  Classification:</TD><TD>
+Recursion
+
+  	</TD></TR><TR VALIGN = "TOP"><TD>
+  Problem Notes:</TD> <TD>
+
+Hanoi Towers with a twist - 4 poles instead of 3.  Note that the problem does not ask for
+an optimal solution, but just one following the rules they specify
+
+  	</TD></TR><TR VALIGN = "TOP"><TD>
+  Technical Notes: </TD><TD>
+
+Requires Big Numbers
+
+  	</TD></TR><TR VALIGN = "TOP"><TD>
+  Solution: </TD><TD>
+A simple approach is to figure out the recurrence.  Let the sequence A1,A2, ..., An represent the
+minimum number of moves required to move n disks with 4 poles following the rules they want.  Let
+the sequence B1, B2, ..., Bn represent the minimum number of moves required to move n disks with
+3 poles (An = 2^n -1).  To find A[n], we take the minimum over all i < n of 2*A[i]+B[n-i].  These
+number get large fairly quickly, so BigNumbers are required.
+
+
+  	</TD></TR><TR VALIGN = "TOP"><TD>
+
+  Solution Code: </TD><TD>
+
+
+  	</TD></TD></TR></TABLE></BODY></HTML>

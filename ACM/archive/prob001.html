@@ -1,0 +1,508 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://contest.felk.cvut.cz/99cerc/problems.html -->
+<HTML><HEAD><TITLE>Problems Statement: CERC 1999</TITLE>
+<META content="text/html; charset=windows-1250" http-equiv=Content-Type>
+<META 
+content="ACM International Collegiate&#10;         Central Europe 1999 Contest, problem set statement." 
+name=Description>
+<META content="ACM, Programming Contest, CERC 1999" name=Keywords>
+<META content="Michal Šev&egrave;enko, Martin Ka&egrave;er" name=Author>
+<META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
+<BODY bgColor=white>
+<CENTER>
+<P>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=600>
+  <TBODY>
+  <TR>
+    <TD>
+      <P align=center><B>ACM International Collegiate Programming Contest</B> 
+      <BR>Sponsored by IBM 
+      <P align=center><B>Central Europe 1999 Regional Contest</B> 
+      <P>
+      <P align=center>Czech Technical University in Prague <BR>Dept. of Computer 
+      Science, Faculty of Electrical Engineering <BR>
+      <P align=center>November 13, 1999 <BR>&nbsp;<BR>&nbsp;<BR>
+      <H2 align=center>Contest Problems and Introduction</H2>
+      <P>Dear Contestants: 
+      <P>We have prepared a&nbsp;set of very interesting real-life problems for 
+      you. A&nbsp;team called Archaeologists of the Central Mountains (ACM) is 
+      interested in the famous Helmut's Pyramid (HP) in Egypt. In the Pyramid, 
+      there is a&nbsp;Sarcophagus of Umbertiti Nefrites (SUN). According to the 
+      legend, the Sarcophagus contains (besides the pharaoh's body, of course) 
+      a&nbsp;priceless treasure: air-tickets to Orlando, FL, with the magic date 
+      March 2000. The ACM decided to locate this treasure and retrieve it from 
+      the Pyramid before it is too late. The problem is that the Pyramid is 
+      equipped with many varied traps to protect the tickets from being stolen. 
+      Many years of intensive study have been spent monitoring activities inside 
+      the Pyramid and discovering all the traps. Finally, the archaeologists are 
+      ready to enter the Pyramid. They have a very powerful notebook to help 
+      them finish their task. And your task is to provide the software for them. 
+
+      <P>All programs you create should read data from standard input and write 
+      the results to the standard output. No file operations are allowed. It is 
+      important to follow the exact data format to prevent any 
+      misunderstandings. The format is given for each problem. If not specified 
+      otherwise, you can assume that: 
+      <UL>
+        <LI>if there is more than one number on the same line, they will be 
+        separated by exactly one space 
+        <LI>there will be no spaces at the ends of lines and no extra empty 
+        lines 
+        <LI>all the numbers in the input data and in the result will fit into 
+        the standard integer type </LI></UL>
+      <P>Well, that's about everything we have to say. Good luck with your 
+      mission. 
+      <P align=right>Your Organizing Team 
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=away></A>
+      <H2 align=center>Run Away</H2>
+      <P align=center>(<B>file name:</B> <CODE>away.c, away.p, away.C</CODE>) 
+      <P>One of the traps we will encounter in the Pyramid is located in the 
+      Large Room. A lot of small holes are drilled into the floor. They look 
+      completely harmless at the first sight. But when activated, they start to 
+      throw out very hot java, uh ... pardon, lava. Unfortunately, all known 
+      paths to the Center Room (where the Sarcophagus is) contain a&nbsp;trigger 
+      that activates the trap. The ACM were not able to avoid that. But they 
+      have carefully monitored the positions of all the holes. So it is 
+      important to find the place in the Large Room that has the maximal 
+      distance from all the holes. This place is the safest in the entire room 
+      and the archaeologist has to hide there. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case begins with a line containing three integers 
+      <VAR>X</VAR>, <VAR>Y</VAR>, <VAR>M</VAR> separated by space. The numbers 
+      satisfy conditions: <VAR>1 &lt;= X,Y &lt;=10000</VAR>, <VAR>1 &lt;= M 
+      &lt;= 1000</VAR>. The numbers <VAR>X</VAR> and <VAR>Y</VAR>indicate the 
+      dimensions of the Large Room which has a&nbsp;rectangular shape. The 
+      number <VAR>M</VAR> stands for the number of holes. Then exactly 
+      <VAR>M</VAR> lines follow, each containing two integer numbers 
+      <VAR>U<SUB>i</SUB></VAR> and <VAR>V<SUB>i</SUB></VAR> (<VAR>0 &lt;= 
+      U<SUB>i</SUB> &lt;= X</VAR>, <VAR>0 &lt;= V<SUB>i</SUB> &lt;= Y</VAR>) 
+      indicating the coordinates of one hole. There may be several holes at the 
+      same position. 
+      <H3>Output Specification</H3>Print exactly one line for each test case. 
+      The line should contain the sentence "<CODE>The safest point is 
+      (<VAR>P</VAR>, <VAR>Q</VAR>).</CODE>" where <VAR>P</VAR> and 
+      <VAR>Q</VAR>are the coordinates of the point in the room that has the 
+      maximum distance from the nearest hole, rounded to the nearest number with 
+      exactly one digit after the decimal point (0.05 rounds up to 0.1). 
+      <H3>Sample Input</H3><PRE>3
+1000 50 1
+10 10
+100 100 4
+10 10
+10 90
+90 10
+90 90
+3000 3000 4
+1200 85
+63 2500
+2700 2650 
+2990 100
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>The safest point is (1000.0, 50.0).
+The safest point is (50.0, 50.0).
+The safest point is (1433.0, 1669.8).
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=box></A>
+      <H2 align=center>Equipment Box</H2>
+      <P align=center>(<B>file name:</B> <CODE>box.c, box.p, box.C</CODE>) 
+      <P>There is a large room in the Pyramid called <EM>Room-of-No-Return</EM>. 
+      Its floor is covered by rectangular tiles of equal size. The name of the 
+      room was chosen because of the very high number of traps and mechanisms in 
+      it. The ACM group has spent several years studying the secret plan of this 
+      room. It has made a clever plan to avoid all the traps. A specially 
+      trained mechanic was sent to deactivate the most feared trap called 
+      Shattered Bones. After deactivating the trap the mechanic had to escape 
+      from the room. It is very important to step on the center of the tiles 
+      only; he must not touch the edges. One wrong step and a large rock falls 
+      from the ceiling squashing the mechanic like a pancake. After deactivating 
+      the trap, he realized a horrible thing: the ACM plan did not take his 
+      equipment box into consideration. The box must be laid onto the ground 
+      because the mechanic must have both hands free to prevent contact with 
+      other traps. But when the box is laid on the ground, it could touch the 
+      line separating the tiles. And this is the main problem you are to solve. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case consists of a single line. The line contains exactly 
+      four integer numbers separated by spaces: <VAR>A</VAR>, <VAR>B</VAR>, 
+      <VAR>X</VAR> and <VAR>Y</VAR>. <VAR>A</VAR> and <VAR>B</VAR>indicate the 
+      dimensions of the tiles, <VAR>X</VAR> and <VAR>Y</VAR> are the dimensions 
+      of the equipment box (<VAR>1 &lt;= A,B,X,Y &lt;= 50000</VAR>). 
+      <H3>Output Specification</H3>Your task is to determine whether it is 
+      possible to put the box on a&nbsp;single tile -- that is, if the whole box 
+      fits on a&nbsp;single tile without touching its border. If so, you are to 
+      print one line with the sentence "<CODE>Escape is possible.</CODE>". 
+      Otherwise print the sentence "<CODE>Box cannot be dropped.</CODE>". 
+      <H3>Sample Input</H3><PRE>2
+10 10 8 8
+8 8 10 10
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>Escape is possible.
+Box cannot be dropped.
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=code></A>
+      <H2 align=center>Secret Code</H2>
+      <P align=center>(<B>file name:</B> <CODE>code.c, code.p, code.C</CODE>) 
+      <P>The Sarcophagus itself is locked by a secret numerical code. When 
+      somebody wants to open it, he must know the code and set it exactly on the 
+      top of the Sarcophagus. A very intricate mechanism then opens the cover. 
+      If an incorrect code is entered, the tickets inside would catch fire 
+      immediately and they would have been lost forever. The code (consisting of 
+      up to 100 integers) was hidden in the Alexandrian Library but 
+      unfortunately, as you probably know, the library burned down completely. 
+      <P>But an almost unknown archaeologist has obtained a copy of the code 
+      something during the 18th century. He was afraid that the code could get 
+      to the ``wrong people'' so he has encoded the numbers in a very special 
+      way. He took a random complex number <VAR>B</VAR> that was greater (in 
+      absolute value) than any of the encoded numbers. Then he counted the 
+      numbers as the digits of the system with basis <VAR>B</VAR>. That means 
+      the sequence of numbers <VAR>a<SUB>n</SUB></VAR>, 
+      <VAR>a<SUB>n-1</SUB></VAR>, ..., <VAR>a<SUB>1</SUB></VAR>, 
+      <VAR>a<SUB>0</SUB></VAR> was encoded as the number <VAR>X = a<SUB>0</SUB> 
+      + a<SUB>1</SUB>B + a<SUB>2</SUB>B<SUP>2</SUP> + ...+ 
+      a<SUB>n</SUB>B<SUP>n</SUP></VAR>. 
+      <P>Your goal is to decrypt the secret code, i.e. to express a given number 
+      <VAR>X</VAR> in the number system to the base <VAR>B</VAR>. In other 
+      words, given the numbers <VAR>X</VAR> and <VAR>B</VAR>you are to determine 
+      the ``digit'' <VAR>a<SUB>0</SUB></VAR> through <VAR>a<SUB>n</SUB></VAR>. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case consists of one single line containing four integer 
+      numbers <VAR>X<SUB>r</SUB></VAR>, X<SUB>i</SUB>, 
+      <VAR>B<SUB>r</SUB></VAR>, <VAR>B<SUB>i</SUB></VAR> 
+      (<VAR>|X<SUB>r</SUB>|,|X<SUB>i</SUB>| &lt;= 1000000</VAR>, 
+      <VAR>|B<SUB>r</SUB>|,|B<SUB>i</SUB>| &lt;= 16</VAR>). These numbers 
+      indicate the real and complex components of numbers <VAR>X</VAR> and 
+      <VAR>B</VAR>, i.e. <VAR>X = X<SUB>r</SUB> + i.X<SUB>i</SUB></VAR>, <VAR>B 
+      = B<SUB>r</SUB> + i.B<SUB>i</SUB></VAR>. <VAR>B</VAR> is the basis of the 
+      system (<VAR>|B| &gt; 1</VAR>), <VAR>X</VAR> is the number you have to 
+      express. 
+      <H3>Output Specification</H3>Your program must output a single line for 
+      each test case. The line should contain the ``digits'' 
+      <VAR>a<SUB>n</SUB></VAR>, <VAR>a<SUB>n-1</SUB></VAR>, ..., 
+      <VAR>a<SUB>1</SUB></VAR>, <VAR>a<SUB>0</SUB></VAR>, separated by commas. 
+      The following conditions must be satisfied: 
+      <UL>
+        <LI>for all <VAR>i</VAR> in <VAR>{0, 1, 2, ...n}</VAR>: <VAR>0 &lt;= 
+        a<SUB>i</SUB> &lt; |B|</VAR> 
+        <LI><VAR>X = a<SUB>0</SUB> + a<SUB>1</SUB>B + a<SUB>2</SUB>B<SUP>2</SUP> 
+        + ...+ a<SUB>n</SUB>B<SUP>n</SUP></VAR> 
+        <LI>if <VAR>n &gt; 0</VAR> then <VAR>a<SUB>n</SUB> &lt;&gt; 0</VAR> 
+        <LI><VAR>n &lt;= 100</VAR> </LI></UL>
+      <P>If there are no numbers meeting these criteria, output the sentence 
+      "<CODE>The code cannot be decrypted.</CODE>". If there are more 
+      possibilities, print any of them. 
+      <H3>Sample Input</H3><PRE>4
+-935 2475 -11 -15
+1 0 -3 -2
+93 16 3 2
+191 -192 11 -12
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>8,11,18
+1
+The code cannot be decrypted.
+16,15
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=key></A>
+      <H2 align=center>The Proper Key</H2>
+      <P align=center>(<B>file name:</B> <CODE>key.c, key.p, key.C</CODE>) 
+      <P>Many people think that Tetris was invented by two Russian programmers. 
+      But that is not the whole truth. The idea of the game is very old -- even 
+      the Egyptians had something similar. But they did not use it as a game. 
+      Instead, it was used as a&nbsp;very complicated lock. The lock was made of 
+      wood and consisted of a large number of square fields, laid out in regular 
+      rows and columns. Each field was either completely filled with wood, or 
+      empty. The key for this lock was two-dimensional and it was made by 
+      joining square parts of the same size as the fields of the lock. So they 
+      had a 2D lock and 2D key that could be inserted into the lock from the 
+      top. The key was designed so that it was not possible to move it upwards. 
+      It could only fall down and it could slide sideways -- exactly like in a 
+      Tetris game. The only difference is that the key could not be rotated. 
+      Rotation in Tetris is really a Russian invention. 
+      <P>The entry gate into the Pyramid has such a lock. The ACM archaeologists 
+      have found several keys and one of them belongs to the lock with a very 
+      high probability. Now they need to try them out and find which one to use. 
+      Because it is too time-consuming to try all of them, it is better to begin 
+      with those keys that may be inserted deeper into the lock. Your program 
+      should be able to determine how deep a given key can be inserted into a 
+      given lock. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case begins with a line containing two integers 
+      <VAR>R</VAR> and <VAR>C</VAR> (<VAR>1 &lt;= R,C &lt;= 100</VAR>) 
+      indicating the key size. Then exactly <VAR>R</VAR> rows follow, each 
+      containing <VAR>C</VAR> characters. Each character is either a hash mark 
+      (<CODE>#</CODE>) or a period (<CODE>.</CODE>). A hash mark represents one 
+      square field made of wood; a period is an empty field. The wooden fields 
+      are always connected, i.e. the whole key is made of one piece. Moreover, 
+      the key remains connected even if we cut off arbitrary number of rows from 
+      its top. There is always at least one non-empty field in the top-most and 
+      bottom-most rows and the left-most and right-most columns. 
+      <P>After the key description, there is a line containing two integers 
+      <VAR>D</VAR> and <VAR>W</VAR> (<VAR>1 &lt;= D &lt;= 10000</VAR>, <VAR>1 
+      &lt;= W &lt;= 1000</VAR>). The number <VAR>W</VAR> is the lock width, and 
+      <VAR>D</VAR> is its depth. The next <VAR>D</VAR> lines contain 
+      <VAR>W</VAR> characters each. The character may be either a hash mark 
+      (representing the wood) or a period (the free space). 
+      <H3>Output Specification</H3>Your program should print one line of output 
+      for each test case. The line should contain the statement "<CODE>The key 
+      falls to depth <VAR>X</VAR>.</CODE>". Replace <VAR>X</VAR> with the 
+      maximum depth to which the key can be inserted by moving it down and 
+      sliding it to the left or right only. The depth is measured as the 
+      distance between the bottom side of the key and the top side of the lock. 
+      If it is possible to move the key through the whole lock and take it away 
+      at the bottom side, output the sentence "<CODE>The key can fall 
+      through.</CODE>". 
+      <H3>Sample Input</H3><PRE>4
+2 4
+#.##
+###.
+3 6
+#....#
+#....#
+#..###
+2 3
+##.
+.##
+2 7
+#.#.#.#
+.#.#.#.
+1 1
+#
+1 10
+###....###
+3 2
+##
+.#
+.#
+1 5
+#.#.#
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>The key falls to depth 2.
+The key falls to depth 0.
+The key can fall through.
+The key falls to depth 2.
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=labyrinth></A>
+      <H2 align=center>Labyrinth</H2>
+      <P align=center>(<B>file name:</B> <CODE>labyrinth.c, labyrinth.p, 
+      labyrinth.C</CODE>) 
+      <P>The northern part of the Pyramid contains a very large and complicated 
+      labyrinth. The labyrinth is divided into square blocks, each of them 
+      either filled by rock, or free. There is also a little hook on the floor 
+      in the center of every free block. The ACM have found that two of the 
+      hooks must be connected by a rope that runs through the hooks in every 
+      block on the path between the connected ones. When the rope is fastened, a 
+      secret door opens. The problem is that we do not know which hooks to 
+      connect. That means also that the neccessary length of the rope is 
+      unknown. Your task is to determine the maximum length of the rope we could 
+      need for a given labyrinth. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case begins with a line containing two integers 
+      <VAR>C</VAR> and <VAR>R</VAR> (<VAR>3 &lt;= C,R &lt;= 1000</VAR>) 
+      indicating the number of columns and rows. Then exactly <VAR>R</VAR> lines 
+      follow, each containing <VAR>C</VAR> characters. These characters specify 
+      the labyrinth. Each of them is either a hash mark (<CODE>#</CODE>) or a 
+      period (<CODE>.</CODE>). Hash marks represent rocks, periods are free 
+      blocks. It is possible to walk between neighbouring blocks only, where 
+      neighbouring blocks are blocks sharing a&nbsp;common side. We cannot walk 
+      diagonally and we cannot step out of the labyrinth. 
+      <P>The labyrinth is designed in such a way that there is exactly one path 
+      between any two free blocks. Consequently, if we find the proper hooks to 
+      connect, it is easy to find the right path connecting them. 
+      <H3>Output Specification</H3>Your program must print exactly one line of 
+      output for each test case. The line must contain the sentence 
+      "<CODE>Maximum rope length is <VAR>X</VAR>.</CODE>" where <VAR>X</VAR>is 
+      the length of the longest path between any two free blocks, measured in 
+      blocks. 
+      <H3>Sample Input</H3><PRE>2
+3 3
+###
+#.#
+###
+7 6
+#######
+#.#.###
+#.#.###
+#.#.#.#
+#.....#
+#######
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>Maximum rope length is 0.
+Maximum rope length is 8.
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=pig></A>
+      <H2 align=center>Piggy-Bank</H2>
+      <P align=center>(<B>file name:</B> <CODE>pig.c, pig.p, pig.C</CODE>) 
+      <P>Before ACM can do anything, a&nbsp;budget must be prepared and the 
+      necessary financial support obtained. The main income for this action 
+      comes from Irreversibly Bound Money (IBM). The idea behind is simple. 
+      Whenever some ACM member has any small money, he takes all the coins and 
+      throws them into a piggy-bank. You know that this process is irreversible, 
+      the coins cannot be removed without breaking the pig. After a sufficiently 
+      long time, there should be enough cash in the piggy-bank to pay everything 
+      that needs to be paid. 
+      <P>But there is a big problem with piggy-banks. It is not possible to 
+      determine how much money is inside. So we might break the pig into pieces 
+      only to find out that there is not enough money. Clearly, we want to avoid 
+      this unpleasant situation. The only possibility is to weigh the piggy-bank 
+      and try to guess how many coins are inside. Assume that we are able to 
+      determine the weight of the pig exactly and that we know the weights of 
+      all coins of a given currency. Then there is some minimum amount of money 
+      in the piggy-bank that we can guarantee. Your task is to find out this 
+      worst case and determine the minimum amount of cash inside the piggy-bank. 
+      We need your help. No more prematurely broken pigs! 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case begins with a line containing two integers 
+      <VAR>E</VAR> and <VAR>F</VAR>. They indicate the weight of an empty pig 
+      and of the pig filled with coins. Both weights are given in grams. No pig 
+      will weigh more than 10 kg, that means <VAR>1 &lt;= E &lt;= F &lt;= 
+      10000</VAR>. On the second line of each test case, there is an integer 
+      number <VAR>N</VAR> (<VAR>1 &lt;= N &lt;= 500</VAR>) that gives the number 
+      of various coins used in the given currency. Following this are exactly 
+      <VAR>N</VAR> lines, each specifying one coin type. These lines contain two 
+      integers each, <VAR>P</VAR>and <VAR>W</VAR> (<VAR>1 &lt;= P &lt;= 
+      50000</VAR>, <VAR>1 &lt;= W &lt;=10000</VAR>). <VAR>P</VAR> is the value 
+      of the coin in monetary units, <VAR>W</VAR> is it's weight in grams. 
+      <H3>Output Specification</H3>Print exactly one line of output for each 
+      test case. The line must contain the&nbsp;sentence "<CODE>The minimum 
+      amount of money in the piggy-bank is <VAR>X</VAR>.</CODE>" where 
+      <VAR>X</VAR> is the minimum amount of money that can be achieved using 
+      coins with the given total weight. If the weight cannot be reached 
+      exactly, print a&nbsp;line "<CODE>This is impossible.</CODE>". 
+      <H3>Sample Input</H3><PRE>3
+10 110
+2
+1 1
+30 50
+10 110
+2
+1 1
+50 30
+1 6
+2
+10 3
+20 4
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>The minimum amount of money in the piggy-bank is 60.
+The minimum amount of money in the piggy-bank is 100.
+This is impossible.
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=stone></A>
+      <H2 align=center>Lifting the Stone</H2>
+      <P align=center>(<B>file name:</B> <CODE>stone.c, stone.p, stone.C</CODE>) 
+
+      <P>There are many secret openings in the floor which are covered by a big 
+      heavy stone. When the stone is lifted up, a special mechanism detects this 
+      and activates poisoned arrows that are shot near the opening. The only 
+      possibility is to lift the stone very slowly and carefully. The ACM team 
+      must connect a rope to the stone and then lift it using a pulley. 
+      Moreover, the stone must be lifted all at once; no side can rise before 
+      another. So it is very important to find the centre of gravity and connect 
+      the rope exactly to that point. The stone has a polygonal shape and its 
+      height is the same throughout the whole polygonal area. Your task is to 
+      find the centre of gravity for the given polygon. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case begins with a line containing a single integer 
+      <VAR>N</VAR> (<VAR>3 &lt;= N &lt;= 1000000</VAR>) indicating the number of 
+      points that form the polygon. This is followed by <VAR>N</VAR> lines, each 
+      containing two integers <VAR>X<SUB>i</SUB></VAR> and 
+      <VAR>Y<SUB>i</SUB></VAR> (<VAR>|X<SUB>i</SUB>|, |Y<SUB>i</SUB>| &lt;= 
+      20000</VAR>). These numbers are the coordinates of the <VAR>i</VAR>-th 
+      point. When we connect the points in the given order, we get a polygon. 
+      You may assume that the edges never touch each other (except the
+      neighboring ones) and that they never cross. The area of the polygon is 
+      never zero, i.e. it cannot collapse into a single line. 
+      <H3>Output Specification</H3>Print exactly one line for each test case. 
+      The line should contain exactly two numbers separated by one space. These 
+      numbers are the coordinates of the centre of gravity. Round the 
+      coordinates to the nearest number with exactly two digits after the 
+      decimal point (0.005 rounds up to 0.01). Note that the centre of gravity 
+      may be outside the polygon, if its shape is not convex. If there is such a 
+      case in the input data, print the centre anyway. 
+      <H3>Sample Input</H3><PRE>2
+4
+5 0
+0 5
+-5 0
+0 -5
+4
+1 1
+11 1
+11 11
+1 11
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>0.00 0.00
+6.00 6.00
+</PRE>
+      <P><IMG border=0 height=32 
+      src="line.gif" width=592> <!----------------------------------------------------------------------------------><A 
+      name=words></A>
+      <H2 align=center>Play on Words</H2>
+      <P align=center>(<B>file name:</B> <CODE>words.c, words.p, words.C</CODE>) 
+
+      <P>Some of the secret doors contain a&nbsp;very interesting word puzzle. 
+      The team of archaeologists has to solve it to open that doors. Because 
+      there is no other way to open the doors, the puzzle is very important for 
+      us. 
+      <P>There is a&nbsp;large number of magnetic plates on every door. Every 
+      plate has one word written on it. The plates must be arranged into a 
+      sequence in such a way that every word begins with the same letter as the 
+      previous word ends. For example, the word ``ac<U>m</U>'' can be followed 
+      by the word ``<U>m</U>otorola''. Your task is to write a computer program 
+      that will read the list of words and determine whether it is possible to 
+      arrange all of the plates in a&nbsp;sequence (according to the given rule) 
+      and consequently to open the door. 
+      <H3>Input Specification</H3>The input consists of <VAR>T</VAR> test cases. 
+      The number of them (<VAR>T</VAR>) is given on the first line of the input 
+      file. Each test case begins with a line containing a&nbsp;single integer 
+      number <VAR>N</VAR>that indicates the number of plates (<VAR>1 &lt;= N 
+      &lt;= 100000</VAR>). Then exactly <VAR>N</VAR>lines follow, each 
+      containing a&nbsp;single word. Each word contains at least two and at most 
+      1000 lowercase characters, that means only letters '<CODE>a</CODE>' 
+      through '<CODE>z</CODE>' will appear in the word. The same word may appear 
+      several times in the list. 
+      <H3>Output Specification</H3>Your program has to determine whether it is 
+      possible to arrange all the plates in a&nbsp;sequence such that the first 
+      letter of each word is equal to the last letter of the previous word. All 
+      the plates from the list must be used, each exactly once. The words 
+      mentioned several times must be used that number of times. 
+      <P>If there exists such an ordering of plates, your program should print 
+      the&nbsp;sentence "<CODE>Ordering is possible.</CODE>". Otherwise, output 
+      the&nbsp;sentence "<CODE>The door cannot be opened.</CODE>". 
+      <H3>Sample Input</H3><PRE>3
+2
+acm
+ibm
+3
+acm
+malform
+mouse
+2
+ok
+ok
+</PRE>
+      <H3>Output for the Sample Input</H3><PRE>The door cannot be opened.
+Ordering is possible.
+The door cannot be opened.
+</PRE></TR></TBODY></TABLE>
+<P><IMG border=0 height=32 src="line.gif" 
+width=592> 
+</CENTER></BODY></HTML>

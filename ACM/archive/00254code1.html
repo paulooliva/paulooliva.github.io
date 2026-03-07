@@ -1,0 +1,55 @@
+	<HTML><HEAD><TITLE>
+00254 - Budget Travel
+	</TITLE></HEAD><BODY><PRE>
+00254 - Budget Travel
+(Gilbert Lee)
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int q[150], qsize, dsize;
+char d[150];
+
+void getBin(){
+  int done = 0, carry, i;
+
+  qsize = 0;
+  while(!done){
+    done = 1;
+    carry = 0;
+    for(i = 0; i < dsize; i++){
+      carry = carry * 10 + d[i];
+      d[i] = carry/2;
+      carry = carry % 2;
+      if(d[i]) done = 0;
+    }
+    q[qsize++] = carry;
+  }
+}
+
+int main(){
+  int i, n, sol[3], temp, S, D, T;
+
+  while(scanf(" %d %s", &n, d)==2 && n){
+    dsize = strlen(d);
+    for(i = 0; i < dsize; i++) d[i] -= '0';
+    memset(q, 0, sizeof(q));
+    memset(sol, 0, sizeof(sol));
+    getBin();
+    S = 0;
+    if(n%2){ D=1; T = 2;}
+    else { D= 2; T = 1;}
+    for(i= n-1; i >= 0; i--){
+      if(q[i]){
+        sol[D]++;
+        temp = S; S = T; T = temp;
+      } else {
+        sol[S]++;
+        temp = D; D = T; T = temp;
+      }
+    }
+    printf("%d %d %d\n", sol[0], sol[1], sol[2]);
+  }
+  return 0;
+}
+
+	</PRE></BODY></HTML>

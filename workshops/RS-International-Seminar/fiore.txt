@@ -1,0 +1,9 @@
+Title: Universal Algebra for Computational Calculi
+
+Speaker: Marcelo Fiore
+
+Abstract: I will give an overview of research on algebraic foundations for
+computational and logical calculi, presenting a mathematical framework for
+the syntax and semantics of equational theories and logics for languages
+with binding constructs, both in terms and in types.  Sample applications
+will be discussed throughout.

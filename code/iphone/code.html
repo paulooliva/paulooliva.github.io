@@ -1,0 +1,98 @@
+<HTML>
+
+</BODY>
+
+<H1>Code for image animation</H1>
+
+<PRE>
+
+// add images to the array
+var imagesListArray : [UIImage] = []
+// use for loop
+for position in 1...16
+{
+   
+   let strImageName : String = "win_\(position).png"
+   let image  = UIImage(named:strImageName)
+   imagesListArray.append(image!)
+}
+
+imageView.animationImages = imagesListArray
+imageView.animationDuration = 1.0
+imageView.startAnimating()
+
+</PRE>
+
+<H1>Code for playing music</H1>
+
+<PRE>
+
+import UIKit
+import AVFoundation
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var imageView: UIImageView!
+        
+    var ding:AVAudioPlayer = AVAudioPlayer()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // add images to the array
+        var imagesListArray : [UIImage] = []
+        // use for loop
+        for position in 1...16
+        {
+            
+            let strImageName : String = "win_\(position).png"
+            let image  = UIImage(named:strImageName)
+            imagesListArray.append(image!)
+        }
+        
+        imageView.animationImages = imagesListArray
+        imageView.animationDuration = 1.0
+        imageView.startAnimating()
+        
+        // play song
+        prepareAudios()
+        ding.play()
+    }
+
+    func prepareAudios() {
+        let filePath = NSBundle.mainBundle().pathForResource("music", ofType: "mp3")
+        if let path = filePath {
+            let sound = NSURL.fileURLWithPath(path)
+            do {
+                ding = try AVAudioPlayer(contentsOfURL: sound)
+                ding.prepareToPlay()
+            }
+            catch {
+                print("Error: Can't play song")
+            }
+        }
+        else {
+            print("Error: Can't find file")
+        }
+    }
+}
+
+</PRE>
+
+<H1>Code for toggleAnimation function</H1>
+
+<PRE>
+
+if ding.playing {
+    ding.pause()
+    imageView.stopAnimating()
+}
+else {
+    ding.play()
+    imageView.startAnimating()
+}
+
+</PRE>
+
+</BODY>
+</HTML>

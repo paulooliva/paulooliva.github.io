@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0035)http://acm.uva.es/p/v102/10234.html -->
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds --><HTML><HEAD><TITLE>Frequent Substrings</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=Fibonacci name=description>
+<META content="blends 011" name="Microsoft Theme">
+<META content="MSHTML 6.00.2712.300" name=GENERATOR></HEAD>
+<BODY lang=EN text=#000000 vLink=#0000ff aLink=#ff9900 link=#993300 
+bgColor=#cccccc background=""><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<CENTER>
+<P>&nbsp;</P></FONT>
+<TABLE bgColor=#0060f0>
+  <TBODY>
+  <TR>
+    <TD><FONT face="Trebuchet MS, Arial, Helvetica"><B><FONT 
+      color=#c0ffff size=5>Problem F: Frequent </FONT></B><B><FONT color=#c0ffff 
+      size=5>Substrings</FONT></B></FONT></TR></TBODY></TABLE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></CENTER>
+<P align=justify>You are working for the R&amp;D department of 
+<B><I>International Embedded Equipments Enterprise</I></B> (<B><I>IEEE</I></B>). 
+One day, your boss calls you up and tells this:&nbsp;
+<P align=justify><I>"Yes, I think we should use the N-Gram Analysis for the 
+project. What do you think ??"<BR>"Ye...s, I also thought so..."</I>, you 
+replied.
+<P align=justify>After the conversation, having no clue about what he said, you 
+start searching the internet and find the following sentences.
+<P align=justify><I><B>N-Grams</B> are substrings of length <B>N</B>. <B>N-Gram 
+Analysis</B> is a method of matching text, based on the statistical similarity 
+of occurrences of <B>N-Grams</B>. <B>N-Gram Analysis</B> is used in research 
+areas such as speech recognition, database interfacing, network communication 
+etc.</I>&nbsp; 
+<P align=justify>After going through the topic a few times and reading several 
+articles, you figure out the main parts of the project you have to accomplish. 
+One of the parts required you to do this: Given a string <B><I>S</I></B>, you 
+have to find the most frequently occurring <I><B>N-Gram</B></I> in 
+<B><I>S</I></B>. Since you found this part interesting, you decide to complete 
+it soon. Note that the occurrences can partially overlap. That is, the string 
+<B><I>bcbcbc</I></B> has two occurrences of the substring <I><B>cbc</B></I>.</FONT> 
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P align=justify>Input consists of several test cases. Each test case begins 
+with a line specifying the string <B><I>S</I></B>. <B><I>S</I></B> will contain 
+no more than <B><I>1,000</I></B> characters. <I><B>S</B></I> can contain any of 
+the printable ASCII characters. Capitalization should be ignored while finding 
+the <B><I>N-Grams</I></B>. The next line specifies an integer <B><I>T</I></B>. 
+Next <B><I>T</I></B> lines give the values for <B><I>N</I></B>, 
+<B><I>0</I></B><I><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">&lt; 
+</SPAN></B></I><B><I>N<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£ 
+</SPAN>Length(S)</I></B>.</FONT> 
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P align=justify>For each test case, output <B><I>T</I></B> lines specifying the 
+number of occurrences of the <I><B>N-Gram</B> </I>followed by the 
+<I><B>N-Gram</B></I> itself separated by exactly one space. If there are several 
+such <B><I>N-Grams</I></B>, output the <B><I>least lexicographical</I></B> one, 
+compared in terms of ASCII values.<BR><BR><B><I>Note :</I></B>&nbsp; Given two 
+strings <B><I>a=a<SUB>0</SUB>a<SUB>1</SUB>a<SUB>2</SUB>...a<SUB>m</SUB></I></B> 
+and <B><I>b=b<SUB>0</SUB>b<SUB>1</SUB>b<SUB>2</SUB>...b<SUB>m</SUB></I></B> over 
+the same alphabet <B><I>V</I></B>, we say that <B><I>a</I></B> is 
+<B><I>lexicographically less</I></B> than <B><I>b</I></B> if there exist an 
+integer <B><I>j</I></B>, <B><I>0<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£ 
+</SPAN>j<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£ 
+</SPAN>m</I></B>, so that <B><I>a<SUB>i</SUB>=b<SUB>i</SUB></I></B> for all 
+<B><I>i=0,1,...,j-1</I></B> and <I><B>a<SUB>j</SUB><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">&lt; 
+</SPAN>b<SUB>j</SUB></B></I>.</FONT> 
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>In theory, there is no difference between theory and practice, but in practice, there is.
+2
+4
+9
+</PRE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>4  the
+2  practice
+</PRE><FONT face="Trebuchet MS, Arial, Helvetica">
+
+<ADDRESS><I>Arun Kishore</I> </FONT></ADDRESS></BODY></HTML>

@@ -1,0 +1,26 @@
+Title: Recursion theory and symbolic dynamics
+
+Speaker: Steve Simpson
+
+Abstract: There are many connections between d-dimensional symbolic dynamics
+and Turing's theory of computability and unsolvability.  Given a
+d-dimensional system of finite type, consider the associated
+*orbit problem*, i.e., the problem of finding at least one orbit
+of the system.  For d = 1 it is well known that the orbit problem is
+algorithmically solvable, because one can find a periodic orbit.
+Meyers in 1974 constructed a 2-dimensional system of finite type for
+which the orbit problem is algorithmically unsolvable, i.e., no orbit
+of the system is computable in the sense of Turing.  In a paper to
+appear in Ergodic Theory and Dynamical Systems, I improved
+Meyers's result by constructing 2-dimensional systems of finite type
+for which the orbit problem has any desired degree of unsolvability.
+In another direction, recall that the Kolmogorov complexity of
+a finite mathematical object tau may be roughly described as the
+size, measured in bits, of the smallest Turing machine program which
+describes tau.  In a recent paper to appear in Theory of Computing
+Systems, I obtained a sharp characterization of the
+topological entropy of a d-dimensional symbolic system X in terms
+of the Kolmogorov complexity of the finite configurations of symbols
+which occur in X. I also showed that the topological entropy of X
+coincides with the Hausdorff dimension of X with respect to the
+standard metric.

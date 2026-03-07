@@ -1,0 +1,12 @@
+Title: Computation of the dimension of fractals.
+
+Speaker: Mark Pollicott
+
+Abstract: For many simple fractals there is no explicit expression for their dimension and it is only
+possible to give numerical approximations. A simple example of this is the case of the set of numbers
+in the real line whose continued fraction expansion takes digits from a finite given set of natural
+numbers, and for which a precise knowledge is important in understanding the Lagrange spectrum in
+diophantine approximation.  Work of David Ruelle gave an implicit formula for the dimension of such
+fractals and Curt McMullen showed how to use this expression to get good numerical estimates.
+However, Jenkinson and I showed that a careful study of Ruelle's proof actually leads to a new
+method of getting much more accurate numerical approximations to the true value.

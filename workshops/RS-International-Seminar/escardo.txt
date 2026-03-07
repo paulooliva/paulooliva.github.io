@@ -1,0 +1,38 @@
+Title: Topology and computation
+
+Speaker: Martin Escardo
+
+Abstract: This is a survey of a (limited) selection of ideas and results
+regarding topology in computation. We first consider computation with
+simple types (as in Goedel's system T and Platek-Scott-Plotkin's PCF)
+and then with dependent types (as in Martin-Loef's intensional type
+theory).
+
+We'll first introduce the Kleene-Kreisel spaces, which model simple
+types so that programs define continuous functions. A computational
+manifestation of the compact sets in topology are the (finitely)
+searchable sets in computation. Finite sets are of course searchable,
+and, conversely, searchable sets are compact. A computational
+counter-part of the Tychonoff Theorem in topology shows that countable
+products of searchable sets are searchable, and so e.g. the Cantor
+type of infinite binary sequences is searchable. Moreover, a non-empty
+subset of a Kleene-Kreisel space is searchable if and only if it is a
+computable image of the Cantor type. This is a counter-part of the
+topological fact that a non-empty subset of a sequential Hausdorff
+space is compact if and only if it is a continuous image of the Cantor
+space.
+
+The Kleene--Kreisel spaces live in Johnstone's topological topos,
+which models dependent types. This topos hosts the sequential
+topological spaces, and also the larger category of Kuratowski limit
+spaces. The limit spaces model small types. There is also an object
+modelling the large type of small types, the universe, which is not a
+limit space. Its topology is trivial, though: it is
+indiscrete. Moreover, it is a model-independent theorem in type theory
+that any universe is necessarily indiscrete. From this we derive
+Rice's Theorem for the universe: it can't have any non-trivial,
+extensional, decidable property, unless WLPO holds. We also briefly
+discuss a constructive counter-part of the topological topos (joint
+work with Chuangjie Xu) that can be defined in type theory (and has
+been formalized in Agda), applied to extract computational content
+from type theoretic proofs that use Brouwerian continuity axioms.

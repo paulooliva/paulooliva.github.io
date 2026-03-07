@@ -1,0 +1,73 @@
+<HTML>
+<HEAD> <TITLE> Programming Contest Problems </TITLE> </HEAD>
+</BODY>
+
+<TABLE BORDER=1 BORDERCOLOR=green>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Dynamic Programming </U></B></TR>
+<TR> <TD><A HREF="S00116.html"> Unidirectional TSP		</A></TD> <TD> Dynamic Programming	</TD></TR>
+<TR> <TD><A HREF="S00222.html"> Budget Travel			</A></TD> <TD> Dynamic Programming	</TD></TR>
+<TR> <TD><A HREF="S00231.html"> Testing the CATCHER		</A></TD> <TD> Dynamic Programming	</TD></TR>
+<TR> <TD> <A HREF="00001.html"> Humble Numbers			</A></TD> <TD> Dynamic Programming	</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Sorting </U></B></TR>
+<TR> <TD><A HREF="00741.html">  Burrows Wheeler Decoder		</A></TD> <TD> Sorting			</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Combinatorics/Graph Theory </U></B></TR>
+<TR> <TD><A HREF="10213.html">  How Many Pieces of Land?	</A></TD> <TD> Combinatorics		</TD></TR>
+<TR> <TD><A HREF="10929.html">  Snow Clearing			</A></TD> <TD> Graph Theory		</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Direct </U></B></TR>
+<TR> <TD><A HREF="S00621.html"> Secret Research			</A></TD><TD> Direct			</TD></TR>
+<TR> <TD><A HREF="S00608.html"> Counterfeit Dollar		</A></TD><TD> Direct			</TD></TR>
+<TR> <TD><A HREF="S10234.html"> Frequent Substrings		</A></TD><TD> Direct			</TD></TR>
+<TR> <TD><A HREF="S00254.html"> Towers of Hanoi			</A></TD><TD> Direct			</TD></TR>
+<TR> <TD><A HREF="S00347.html"> Run, Run, Runaround Numbers	</A></TD><TD> Direct			</TD></TR>
+<TR> <TD><A HREF="20126.html">  Hardwood Species		</A></TD> <TD> Direct			</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Search </U></B></TR>
+<TR> <TD><A HREF="S00257.html"> Palinwords			</A></TD> <TD> Search			</TD></TR>
+<TR> <TD><A HREF="S10230.html"> Savage Garden			</A></TD> <TD> Search			</TD></TR>
+<TR> <TD><A HREF="S00784.html"> Maze Exploration		</A></TD> <TD> Search			</TD></TR>
+<TR> <TD><A HREF="00714.html">  Copying Books			</A></TD> <TD> Search			</TD></TR>
+<TR> <TD><A HREF="00785.html">  Grid Coloring			</A></TD> <TD> Search			</TD></TR>
+<TR> <TD><A HREF="10126.html">  Star not a Tree?		</A></TD> <TD> Search			</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Modelling/Simulation </U></B></TR>
+<TR> <TD><A HREF="S00201.html"> Squares				</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="S00253.html"> Cube Painting			</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="S00571.html"> Jugs				</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="S00209.html"> Triangular Vertices		</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="S00221.html"> Urban Elevations		</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="S10231.html"> Matrix World			</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="S10189.html"> Minesweeper			</A></TD> <TD> Modelling/Simulation	</TD></TR>
+<TR> <TD><A HREF="00181.html">  Hearts				</A></TD> <TD> Modelling/Simulation	</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Arithmetic </U></B></TR>
+<TR> <TD WIDTH=200><A HREF="S10220.html"> I Love Big Numbers	</A></TD><TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10223.html"> How Many Nodes?			</A></TD><TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10110.html"> Light, more Light		</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10229.html"> Modular Fibonacci		</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S00264.html"> Count on Cantor			</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10235.html"> Simply Emirp			</A></TD> <TD> Aritmetic		</TD></TR>
+<TR> <TD><A HREF="S10232.html"> Bit-Wise Sequence		</A></TD> <TD> Combinatorics		</TD></TR>
+<TR> <TD><A HREF="00002.html">  Discrete Logging		</A></TD> <TD> Arithmetic			</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Parsing </U></B></TR>
+<TR> <TD><A HREF="S00327.html"> Evaluating Simple C Expressions </A></TD> <TD> Parsing			</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Recursion </U></B></TR>
+<TR> <TD><A HREF="S00299.html"> Train Swapping			</A></TD> <TD> Greedy			</TD></TR>
+<TR> <TD><A HREF="S10254.html"> The Priest Mathematician 	</A></TD> <TD> Recursion/BigNumbers	</TD></TR>
+<TR> <TD><A HREF="S00441.html"> Lotto				</A></TD> <TD> Recursive		</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Geometry </U></B></TR>
+<TR> <TD><A HREF="S10078.html"> The Art Gallery			</A></TD><TD> Geometry			</TD></TR>
+<TR> <TD><A HREF="S10233.html"> Dermuba Triangle		</A></TD> <TD> Geometry			</TD></TR>
+<TR> <TD><A HREF="S10242.html"> Fourth Point			</A></TD> <TD> Geometry			</TD></TR>
+<TR> <TD><A HREF="00003.html">  Return of the Jedi		</A></TD> <TD> Geometry			</TD></TR>
+</TABLE>
+
+<A HREF="class.txt"> Spanish Problem Classification </A>
+
+</HTML>

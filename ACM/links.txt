@@ -1,0 +1,10 @@
+http://www.acm.inf.ethz.ch/ProblemSetArchive.html
+http://www.acm.inf.ethz.ch/PastContests.html
+http://www.cs.uoregon.edu/resources/progteam/2001/
+http://www.uniba.sk/www/acm/
+http://www.inf.bme.hu/contests/tasks/
+http://www.angelfire.com/ca2/lorddave/cont.html 
+
+Done:
+ (*) http://www.cs.ualberta.ca/~contest/club/
+ (*) http://icpc.baylor.edu/past/icpc2000/regionals/CERC99/Report.html

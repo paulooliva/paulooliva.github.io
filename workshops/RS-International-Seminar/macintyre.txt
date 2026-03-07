@@ -1,0 +1,9 @@
+Title: Unwinding in the style of Kreisel: The Case of Littlewood's Theorem
+
+Speaker: Angus MacIntyre
+
+Abstract: A small number of difficult and important theorems in pure mathematics
+have been analyzed with the aid of some metamathematical ideas of Kreisel, with a
+view to extracting more explicit information. The applications are not systematic,
+and probably cannot be. I concentrate on some aspects of what goes on in connection
+with analytic number theory.

@@ -1,0 +1,8 @@
+Title: Proof mining
+
+Speaker: Ulrich Kohlenbach
+
+Abstract: During the last 10 years a systematic use of proof-theoretic
+transformations to extract new information from proofs in nonlinear
+analysis has emerged. We will survey some of the key logical features
+involved as well as report on a few selected applications.

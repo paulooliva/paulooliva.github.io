@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0035)http://acm.uva.es/p/v102/10231.html -->
+<HTML><HEAD><TITLE>Matrix World</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content=Triangle name=description>
+<META content="blends 011" name="Microsoft Theme">
+<META content="MSHTML 6.00.2712.300" name=GENERATOR></HEAD>
+<BODY lang=EN text=#000000 vLink=#0000ff aLink=#ff9900 link=#993300 
+bgColor=#cccccc background=""><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<CENTER>
+<P>&nbsp;</P></FONT>
+<TABLE bgColor=#0060f0>
+  <TBODY>
+  <TR>
+    <TD><FONT face="Trebuchet MS, Arial, Helvetica"><B><FONT 
+      color=#c0ffff size=5>Problem C: Matrix 
+      World</FONT></B></FONT></TR></TBODY></TABLE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></CENTER>
+<P align=justify>Yes, The Matrix exists! Actually, it existed much before, but 
+people started thinking about it only after the mega movie The Matrix. Nowadays, 
+lot of people go out of the Matrix into the real world, mainly to collect 
+diamond treasures. After spending lot of time in front of the computer, you 
+decide to take a break and go into the real world. The real world has lot of 
+radar stations to locate the objects and you plan to attack one of those radar 
+stations to get a nice idea of the region. The radar stations show a map of the 
+nearby area which follows the legend given below. 
+<BLOCKQUOTE>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <BLOCKQUOTE>
+          <BLOCKQUOTE>
+            <BLOCKQUOTE>
+              <BLOCKQUOTE>
+                <P align=justify><I><B>'*' -&nbsp; Diamond Treasure<BR>'.' 
+                -&nbsp; Empty Cell<BR>'#' -&nbsp; Forbidden Rock Cell<BR>'X' 
+                -&nbsp; Guard Machines<BR>'O' -&nbsp; Your Current 
+                Position.</B></I> 
+        </P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+<P align=justify>Of course the Guard Machines will sense your arrival and start 
+moving. You estimate that you will take exactly one second to move from one cell 
+to another. Collecting one diamond treasure will also take exactly one second. 
+The Guard Machines also move at one cell per second. Of course, you wish to 
+collect the maximum number of diamond treasures (don't you ?). If there are 
+several ways to collect the maximum number of treasures, you want to do it in 
+the fastest time possible. The region shown on the radar is fenced and protected 
+from outside. So, you cannot go out of the region and no Guard Machine can come 
+into it.
+<P align=justify>Write a program which computes the minimum time to collect the 
+maximum number of treasures from the real world given the map of the region.</FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P align=justify>Input consists of several test cases. Each test case begins 
+with a line containing two integers <I><B>M</B></I> and <B><I>N</I></B> which 
+specify the size of the map, <B><I>2<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£ 
+</SPAN>N, M<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman">£ 
+</SPAN>30</I></B>. Next <B><I>M</I></B> lines give <B><I>N</I></B> characters 
+that describe the map itself. Each of the maps in the input follow the legend 
+given above. The number of diamond treasures in a map is limited to 10.&nbsp;</FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica">
+<P align=justify>For each test case in input, first print the line "<B><I>Case 
+t:</I></B>" where <B><I>t</I></B> is the case number starting from 1. If it is 
+not possible to collect any treasures from the real world, print the line 
+"<B><I>No treasures can be collected.</I></B>". Otherwise, print the line 
+"<B><I>Maximum number of collectible treasures: max.</I></B>" where 
+<B><I>max</I></B> is the maximum number of treasures that can be collected from 
+the region without being terminated by the Guard Machines. If a Guard Machine 
+can reach a cell at the same time you finish collecting a treasure, that 
+treasure should not be counted as collected because you need some time to escape 
+from the real world. In the next line, print the line "<B><I>Minimum Time: min 
+sec.</I></B>" where <B><I>min</I></B> is the minimum time required to collect 
+<B><I>max</I></B> treasures. Print a blank line after every test case.&nbsp;</P></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Input</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>5 5
+....X
+.####
+...*#
+#*..#
+#..O#
+4 3
+O**
+*..
+##.
+X..
+4 3
+.O.
+*..
+##X
+X..
+3 3
+##*
+.O.
+*#*
+</PRE><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT>
+<H2><FONT face="Trebuchet MS, Arial, Helvetica" 
+color=#330099><FONT color=#0070e8>Sample Output</FONT></FONT></H2><FONT 
+face="Trebuchet MS, Arial, Helvetica"></FONT><PRE>Case 1:
+Maximum number of collectible treasures: 2.
+Minimum Time: 7 sec.
+
+Case 2:
+Maximum number of collectible treasures: 2.
+Minimum Time: 4 sec.
+
+Case 3:
+No treasures can be collected.
+
+Case 4:
+Maximum number of collectible treasures: 3.
+Minimum Time: 11 sec.
+
+</PRE><FONT face="Trebuchet MS, Arial, Helvetica">
+
+<ADDRESS><I>Arun Kishore</I> </FONT></ADDRESS></BODY></HTML>

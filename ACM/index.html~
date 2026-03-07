@@ -1,0 +1,166 @@
+<HTML>
+<BASE HREF="http://www.brics.dk/~pbo/ACM/archive/">
+<HEAD> <TITLE> Programming Contest Problems </TITLE> </HEAD>
+</BODY>
+
+<TABLE BORDER=1 BORDERCOLOR=green>
+
+<TR> <TD BGCOLOR=green COLSPAN = 3><FONT COLOR=gold> <B><U> Dynamic Programming </U></B></TR>
+<TR> <TD><A HREF="00116.html"> Unidirectional TSP	</A></TD>
+     <TD> <A href="00116code1.html">Sol</A>, <A HREF="S00116.html">Com</A> </TD>
+     <TD> Checked </TD></TR>
+<TR> <TD><A HREF="00222.html"> Budget Travel		</A></TD> 
+     <TD> <A href="00222code1.html">Sol</A>, <A HREF="S00222.html">Com</A> </TD>
+     <TD> Checked </TD> </TR>
+<TR> <TD><A HREF="00231.html"> Testing the CATCHER	</A></TD> 
+     <TD> Sol, <A href="S00231.html">Com</A> </TD> 
+     <TD> Checked </TD> </TR>
+<TR> <TD><A HREF="00001.html">  Humble Numbers		</A></TD> 
+     <TD> Sol, Com </TD> </TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Contracting Integers </A></TD> 
+     <TD> <A href="subtract.c">Sol</A>, South America 1998 </TD>
+     <TD> Checked </TD> </TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Paint Filling </U></B></TR>
+<TR> <TD><A HREF="00784.html"> Maze Exploration	</A></TD>
+     <TD> Sol, <A href="S00784.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00785.html">  Grid Coloring		</A></TD> 
+     <TD> Sol, Com </TD> </TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Help the Museum </A></TD> 
+     <TD> <A href="museum.pas">Sol</A>, South America 1998 </TD> 
+     <TD> Checked </TD> </TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Geometric </U></B></TR>
+<TR> <TD><A HREF="10078.html"> The Art Gallery		</A></TD>
+     <TD> <A href="10078code1.html">Sol</A>, <A href="S10078.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="10233.html"> Dermuba Triangle	</A></TD>
+      <TD> Sol, <A href="S10233.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="10242.html"> Fourth Point		</A></TD>
+     <TD> Sol, <A href="S10242.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00003.html">  Return of the Jedi	</A></TD>
+     <TD> Sol, Com </TD></TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Visible Squares </A></TD> 
+     <TD> <A href="squares.c">Sol</A>, South America 1998 </TD> 
+     <TD> Checked </TD> </TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Sorting </U></B></TR>
+<TR> <TD><A HREF="00741.html">  Burrows Wheeler Decoder	</A></TD>
+     <TD>Sol, Com </TD> </TR>
+<TR> <TD><A HREF="00299.html"> Train Swapping		</A></TD> 
+     <TD> Sol, <A HREF="S00299.html"> Com </A> </TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Combinatorics </U></B></TR>
+<TR> <TD><A HREF="10213.html">  How Many Pieces of Land?</A></TD> 
+     <TD>Sol, Com </TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Graph Theory </U></B></TR>
+<TR> <TD><A HREF="10929.html">  Snow Clearing		</A></TD>
+     <TD>Sol, Com </TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Direct </U></B></TR>
+<TR> <TD><A HREF="00621.html"> Secret Research		</A></TD>
+     <TD> <A href="00621code1.html">Sol</A>, <A href="S00621.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00608.html"> Counterfeit Dollar	</A></TD>
+     <TD> <A href="00608code1.html">Sol</A>, <A href="S00608.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00254.html"> Towers of Hanoi		</A></TD>
+     <TD> <A href="00254code1.html">Sol</A>, <A href="S00254.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="10234.html"> Frequent Substrings	</A></TD>
+     <TD> Sol, <A href="S10234.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00347.html"> Run, Run, Runaround Numbers</A></TD>
+     <TD> Sol, <A href="S00347.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="20126.html">  Hardwood Species	</A></TD>
+     <TD> Sol, Com </TD></TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Algoc </A></TD> 
+     <TD> <A href="algoc.pas">Sol</A>, South America 1998 </TD> 
+     <TD> Checked </TD> </TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Keyless Encryption </A></TD> 
+     <TD> Sol, South America 1998 </TD> 
+     <TD> Checked </TD> </TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Cellular Automata </A></TD> 
+     <TD> Sol, South America 1998 </TD> 
+     <TD> Checked </TD> </TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Search </U></B></TR>
+<TR> <TD><A HREF="00257.html"> Palinwords		</A></TD> 
+     <TD> Sol, <A href="S00257.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="10230.html"> Savage Garden		</A></TD>
+     <TD> Sol, <A href="S10230.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00714.html">  Copying Books		</A></TD>
+     <TD> Sol, Com </TD></TR>
+<TR> <TD><A HREF="10126.html">  Star not a Tree?	</A></TD> 
+     <TD> Sol, Com </TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Modelling/Simulation </U></B></TR>
+<TR> <TD><A HREF="00201.html"> Squares			</A></TD> 
+     <TD> <A href="00201code1.html">Sol</A>, <A href="S00201.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00571.html"> Jugs			</A></TD> 
+     <TD> <A href="00571code1.html">Sol</A>, <A href="S00571.html">Com</A></TD></TR>
+<TR> <TD><A HREF="00209.html"> Triangular Vertices	</A></TD> 
+     <TD> <A href="00209code1.html">Sol</A>, <A href="S00209.html">Com</A></TD></TR>
+<TR> <TD><A HREF="00221.html"> Urban Elevations	</A></TD> 
+     <TD> <A href="00221code1.html">Sol</A>, <A href="S00221.html">Com</A></TD></TR>
+<TR> <TD><A HREF="00181.html">  Hearts			</A></TD> 
+     <TD> <A href="00201code1.html">Sol</A>, <A href="S00201.html">Com</A> </TD></TR>
+<TR> <TD><A HREF="00253.html"> Cube Painting		</A></TD>
+     <TD> Sol, <A href="S00253.html">Com</A></TD></TR>
+<TR> <TD><A HREF="10231.html"> Matrix World		</A></TD> 
+     <TD> Sol, <A href="S10231.html">Com</A></TD></TR>
+<TR> <TD><A HREF="10189.html"> Minesweeper		</A></TD> 
+     <TD> Sol, <A href="S10189.html">Com</A></TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Arithmetic </U></B></TR>
+<TR> <TD WIDTH=200><A HREF="S10220.html"> I Love Big Numbers</A></TD><TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10223.html"> How Many Nodes?		</A></TD><TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10110.html"> Light, more Light	</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10229.html"> Modular Fibonacci	</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S00264.html"> Count on Cantor		</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="S10235.html"> Simply Emirp		</A></TD> <TD> Arithmetic		</TD></TR>
+<TR> <TD><A HREF="00002.html">  Discrete Logging	</A></TD> <TD> Arithmetic		</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Combinatorics </U></B></TR>
+<TR> <TD><A HREF="S10232.html"> Bit-Wise Sequence	</A></TD> <TD> Combinatorics		</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Parsing </U></B></TR>
+<TR> <TD><A HREF="S00327.html"> Evaluating Simple C Expressions </A></TD> <TD> Parsing		</TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Recursion </U></B></TR>
+<TR> <TD><A HREF="S00441.html"> Lotto			</A></TD> 
+     <TD> Sol, Com </TD></TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Big Numbers </U></B></TR>
+<TR> <TD><A HREF="S10254.html"> The Priest Mathematician</A></TD> 
+     <TD> Sol, Com </TD></TR>
+<TR> <TD><A HREF="BrProblems1998.pdf"> Inflated Numbers </A></TD> 
+     <TD> <A href="inflation.pas">Sol</A>, South America 1998 </TD> </TR>
+
+<TR> <TD BGCOLOR=green COLSPAN = 2><FONT COLOR=gold> <B><U> Unclassified </U></B></TR>
+<TR> <TD><A HREF="prob001.html#away"> Run Away </A></TD> 
+     <TD> <A href="prob001away.p">Sol</A>, Geometric </TD> </TR>
+<TR> <TD><A HREF="prob001.html#box"> Equipment Box </A></TD> 
+     <TD> <A href="prob001box.c">Sol</A>, Geometric </TD> </TR>
+<TR> <TD><A HREF="prob001.html#code"> Secret Code </A></TD> 
+     <TD> <A href="prob001code.c">Sol</A>, Arithmetic </TD> </TR>
+<TR> <TD><A HREF="prob001.html#key"> Proper Key </A></TD> 
+     <TD> <A href="prob001key.c">Sol</A>, Compute as Read </TD> </TR>
+<TR> <TD><A HREF="prob001.html#labyrinth"> Labyrinth </A></TD> 
+     <TD> <A href="prob001labyrinth.c">Sol</A>, Max dist between 2
+     nodes in a tree. DFS </TD> </TR>
+<TR> <TD><A HREF="prob001.html#pig"> Piggy-Bank </A></TD> 
+     <TD> <A href="prob001pig.c">Sol</A>, Dynamic Programming </TD> </TR>
+<TR> <TD><A HREF="prob001.html#stone"> Lifting the Stone </A></TD> 
+     <TD> <A href="prob001stone.c">Sol</A>, Geometric, Gravity centre
+     </TD> </TR> 
+<TR> <TD><A HREF="prob001.html#words"> Play on Words </A></TD> 
+     <TD> <A href="prob001words.c">Sol</A>, Com </TD> </TR>
+
+</TABLE>
+
+<BR>
+
+Others
+
+<UL>
+<LI> <A HREF="class.txt"> Spanish Problem Classification </A>
+</UL>
+
+</HTML>

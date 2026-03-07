@@ -1,0 +1,18 @@
+Title: Symbolic computation, combinatorics, and modular forms
+
+Speaker: Peter Paule
+
+Abstract: The common thread of the talk concerns computational interpretations
+(resp. refinements) of mathematical theorems and methods in the fields
+of combinatorics and additive number theory. The starting point is an
+algorithmic revitalization (joint with George Andrews and Axel Riese)
+of partition analysis, a combinatorial method invented by MacMahon more
+than a hundred years ago. Corresponding computer algebra software led
+to the discovery of a new combinatorial construction of modular forms,
+which in turn gave rise to new number-theoretic congruences satisfied
+by partition numbers. Part two of the talk describes new algorithmic
+developments (by Cristian-Silviu Radu and also in joint work with Radu)
+in the theory of modular forms that allow new proof methods for related
+q-series identities, including a new unified proving frame for the
+celebrated families of partition congruences modulo powers of 5, 7,
+and 11 discovered by Ramanujan.
