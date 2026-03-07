@@ -27,27 +27,28 @@
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<form name="myform" action="" method="POST">
-    <div class='h5 ml-4 mt-4'>
-        Dr Oliva's research papers sorted by
-        <select class='ml-2' name="sortorder" onChange="javascript:update(this.selectedIndex)">
-            <option value="chrono">chronological order</option>
-            <option value="year">publication year</option>
-            <option value="author">group of authors</option>
-            <option value="topic">topic</option>
-        </select>
+<div class="p-4">
+    <form name="myform" action="" method="POST">
+        <div class='h5'>
+            Dr Oliva's research papers sorted by
+            <select class='ml-2' name="sortorder" onChange="javascript:update(this.selectedIndex)">
+                <option value="chrono">chronological order (reverse)</option>
+                <option value="year">publication year</option>
+                <option value="author">group of authors</option>
+                <option value="topic">topic</option>
+            </select>
+        </div>
+    </form>
+
+    <div id="pubs">
+        <!-- Publications will be loaded here by the JavaScript code -->
     </div>
-</form>
-
-<div class="p-4" id="pubs">
-    <!-- Publications will be loaded here by the JavaScript code -->
-
 </div>
 
 <script type="text/javascript">
 
     function xmlFct(xml) {
-        $papers = $(xml).find('paper').get().reverse();
+        $papers = $(xml).find('paper').get();
         $s = "<ul id='publist'>";
         $($papers).each(
             function (i) {
