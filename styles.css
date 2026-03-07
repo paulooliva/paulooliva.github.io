@@ -1,0 +1,223 @@
+:root {
+    /* Modern color scheme */
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --accent-color: #0056b3;
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+    --text-dark: #212529;
+    --border-color: #dee2e6;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
+
+    /* Typography */
+    --font-serif: "Merriweather", serif;
+    --font-sans:
+        "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contact navbar styling */
+.navbar-contact {
+    background: linear-gradient(135deg, var(--white) 0%, var(--light-bg) 100%);
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.navbar-contact .nav-link {
+    color: var(--text-dark);
+    transition:
+        color 0.3s ease,
+        transform 0.2s ease;
+    font-weight: 500;
+}
+
+.navbar-contact .nav-link:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: var(--shadow-hover);
+}
+
+/* Main menu styling */
+.navbar-main {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.navbar-main.scrolled {
+    box-shadow: var(--shadow-hover);
+    padding: 0.75rem 1rem;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: var(--text-dark) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(13, 110, 253, 0.08);
+    color: var(--primary-color) !important;
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: var(--shadow-hover);
+    border-radius: 12px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    animation: fadeInDown 0.3s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-item {
+    padding: 0.65rem 1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transform: translateX(5px);
+}
+
+/* Content iframe */
+.content-frame {
+    border: none;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 12px;
+    margin: 1.5rem auto;
+    max-width: 1400px;
+    transition: all 0.3s ease;
+}
+
+.content-frame:hover {
+    box-shadow: var(--shadow-hover);
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+    .navbar-main {
+        padding: 0.75rem;
+    }
+
+    .nav-link {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .content-frame {
+        margin: 1rem;
+        border-radius: 8px;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Dark mode support (optional future enhancement) */
+@media (prefers-color-scheme: dark) {
+    /* Uncomment to enable dark mode
+    :root {
+        --light-bg: #1a1a1a;
+        --white: #2d2d2d;
+        --text-dark: #e4e4e4;
+        --border-color: #404040;
+    }
+    */
+}
+
+/* Accessibility improvements */
+.nav-link:focus,
+.dropdown-item:focus,
+.social-icon:focus {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    .navbar-contact,
+    .navbar-main {
+        display: none;
+    }
+
+    .content-frame {
+        box-shadow: none;
+        margin: 0;
+    }
+}
