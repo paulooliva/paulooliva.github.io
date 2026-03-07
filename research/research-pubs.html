@@ -1,15 +1,3 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<style>
-    div {
-        font-family: 'Merriweather', serif;
-    }
-</style>
-
 <form name="myform" action="" method="POST">
     <div class='h5 ml-4 mt-4'>
         Dr Oliva's research papers sorted by
@@ -69,6 +57,12 @@
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
                 $s += "<br>"
+                // if it has extra material, add it
+                if ($(this).find("extra").length > 0) {
+                    console.log("has extra material", $(this).find("extra").html());
+                    $s += $(this).find("extra").html();
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }
@@ -106,6 +100,12 @@
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>"; // + $(this).find("year").text();
                 $s += "<br>"
+                // if it has extra material, add it
+                if ($(this).find("extra").length > 0) {
+                    console.log("has extra material", $(this).find("extra").html());
+                    $s += $(this).find("extra").html();
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }
@@ -143,6 +143,12 @@
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
                 $s += "<br>"
+                // if it has extra material, add it
+                if ($(this).find("extra").length > 0) {
+                    console.log("has extra material", $(this).find("extra").html());
+                    $s += $(this).find("extra").html();
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }
@@ -179,7 +185,13 @@
                 $s += "<br>";
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
-                $s += "<p></li>";
+                // if it has extra material, add it
+                if ($(this).find("extra").length > 0) {
+                    $s += "<br>";
+                    console.log("has extra material", $(this).find("extra").html());
+                    $s += $(this).find("extra").html();
+                }
+                $s += "</li>";
             }
         );
         $s += "</ul></section>";
