@@ -43,6 +43,7 @@
                 $s += "<br>"
                 // if it has extra material, add it
                 if ($(this).find("extra").length > 0) {
+                    console.log("has extra material", $(this).find("extra").html());
                     $s += $(this).find("extra").html();
                     $s += "<br>";
                 }
