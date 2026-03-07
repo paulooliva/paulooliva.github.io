@@ -1,7 +1,8 @@
 <html>
+
 <head>
     <title>Paulo Oliva Publications</title>
-    
+
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
     <script type="text/javascript" src="scripts/jquery.js"></script>
@@ -9,63 +10,40 @@
 
 <body>
 
-<form name="myform" action="" method="POST">
+    <form name="myform" action="" method="POST">
 
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=2535026; 
-var sc_invisible=1; 
-var sc_security="af40e99c"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript><div class="statcounter"><a title="web analytics"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="http://c.statcounter.com/2535026/0/af40e99c/1/"
-alt="web analytics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+            var sc_project = 2535026;
+            var sc_invisible = 1;
+            var sc_security = "af40e99c"; 
+        </script>
+        <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+        <noscript>
+            <div class="statcounter"><a title="web analytics" href="http://statcounter.com/" target="_blank"><img
+                        class="statcounter" src="http://c.statcounter.com/2535026/0/af40e99c/1/"
+                        alt="web analytics"></a></div>
+        </noscript>
+        <!-- End of StatCounter Code for Default Guide -->
 
-<center>
-<h2>Paulo Oliva's Publications</h2>
-(sorted by <select name="sortorder" onChange="javascript:update(this.selectedIndex)">
-        <option value="chrono">chronological order</option>
-        <option value="year">publication year</option>
-        <option value="author">group of authors</option>
-        <option value="topic">topic</option>
-    </select>)
-</center>
+        <center>
+            <h2>Paulo Oliva's Publications</h2>
+            (sorted by <select name="sortorder" onChange="javascript:update(this.selectedIndex)">
+                <option value="chrono">chronological order</option>
+                <option value="year">publication year</option>
+                <option value="author">group of authors</option>
+                <option value="topic">topic</option>
+            </select>)
+        </center>
 
-    
-<script type="text/javascript">
-    
-    function xmlFct(xml) {
-        $papers = $(xml).find('paper').get().reverse();
-    	$s = "<ul id='publist'>";
-        $($papers).each(
-            function (i) {
-                $s += "<li><p>";
-                $s += "<b>" + $(this).find("title").text() + "</b>";
-                $s += "<br>";
-                $s += $(this).find("authors").text();
-                $s += "<br>";
-                $s += "[<a href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
-				$s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
-                $s += "<br>"
-                $s += "<b>Topic</b>: " + $(this).find("topic").text();
-                $s += "</p></li>";                
-            }
-        );
-        $s += "</ul>";
-                
-        $('body').append($s);
-	}
 
-    function xmlFctByChrono(xml) {
-        $papers = $(xml).find('paper').get().reverse();
-    	$s = "<ul id='publist'>";
-        $($papers).each(
-                        function (i) {
+        <script type="text/javascript">
+
+            function xmlFct(xml) {
+                $papers = $(xml).find('paper').get().reverse();
+                $s = "<ul id='publist'>";
+                $($papers).each(
+                    function (i) {
                         $s += "<li><p>";
                         $s += "<b>" + $(this).find("title").text() + "</b>";
                         $s += "<br>";
@@ -76,32 +54,53 @@ alt="web analytics"></a></div></noscript>
                         $s += "<br>"
                         $s += "<b>Topic</b>: " + $(this).find("topic").text();
                         $s += "</p></li>";
-                        }
-                        );
-        $s += "</ul>";
-        
-        $publist = document.getElementById("publist");
-        $publist.parentNode.removeChild($publist);
+                    }
+                );
+                $s += "</ul>";
 
-        $('body').append($s);
-	}
+                $('body').append($s);
+            }
 
-    function xmlFctByYear(xml) {
-        $papers = $(xml).find('paper').get().reverse();
-        $papers.sort(function(a,b) {
-             return $(a).find("year").text() > $(b).find("year").text() ? -1 : 1;
-        }
-        );
-        $current_year = "";
-        
-    	$s = "<section id='publist'><ul>";
-        $($papers).each(
-                function (i) {                        
+            function xmlFctByChrono(xml) {
+                $papers = $(xml).find('paper').get().reverse();
+                $s = "<ul id='publist'>";
+                $($papers).each(
+                    function (i) {
+                        $s += "<li><p>";
+                        $s += "<b>" + $(this).find("title").text() + "</b>";
+                        $s += "<br>";
+                        $s += $(this).find("authors").text();
+                        $s += "<br>";
+                        $s += "[<a href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
+                        $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
+                        $s += "<br>"
+                        $s += "<b>Topic</b>: " + $(this).find("topic").text();
+                        $s += "</p></li>";
+                    }
+                );
+                $s += "</ul>";
+
+                $publist = document.getElementById("publist");
+                $publist.parentNode.removeChild($publist);
+
+                $('body').append($s);
+            }
+
+            function xmlFctByYear(xml) {
+                $papers = $(xml).find('paper').get().reverse();
+                $papers.sort(function (a, b) {
+                    return $(a).find("year").text() > $(b).find("year").text() ? -1 : 1;
+                }
+                );
+                $current_year = "";
+
+                $s = "<section id='publist'><ul>";
+                $($papers).each(
+                    function (i) {
                         $new_year = $(this).find("year").text();
-                        if ($current_year != $new_year)
-                        {
-                           $s += "</ul><h3>" + $new_year + "</h3><ul>";
-                           $current_year = $new_year;
+                        if ($current_year != $new_year) {
+                            $s += "</ul><h3>" + $new_year + "</h3><ul>";
+                            $current_year = $new_year;
                         }
 
                         $s += "<li><p>";
@@ -114,32 +113,31 @@ alt="web analytics"></a></div></noscript>
                         $s += "<br>"
                         $s += "<b>Topic</b>: " + $(this).find("topic").text();
                         $s += "</p></li>";
+                    }
+                );
+                $s += "</ul></section>";
+
+                $publist = document.getElementById("publist");
+                $publist.parentNode.removeChild($publist);
+
+                $('body').append($s);
+            }
+
+            function xmlFctByAuthor(xml) {
+                $papers = $(xml).find('paper').get();
+                $papers.sort(function (a, b) {
+                    return $(a).find("authors").text() > $(b).find("authors").text() ? 1 : -1;
                 }
                 );
-        $s += "</ul></section>";
-        
-        $publist = document.getElementById("publist");
-        $publist.parentNode.removeChild($publist);
+                $current_authors = "";
 
-        $('body').append($s);
-	}
-
-    function xmlFctByAuthor(xml) {
-        $papers = $(xml).find('paper').get();
-        $papers.sort(function(a,b) {
-                     return $(a).find("authors").text() > $(b).find("authors").text() ? 1 : -1;
-                     }
-                     );
-        $current_authors = "";
-        
-    	$s = "<section id='publist'> <ul>";
-        $($papers).each(
-                function (i) {
+                $s = "<section id='publist'> <ul>";
+                $($papers).each(
+                    function (i) {
                         $new_authors = $(this).find("authors").text();
-                        if ($current_authors != $new_authors)
-                        {
-                           $s += "</ul><h3>" + $new_authors + "</h3><ul>";
-                           $current_authors = $new_authors;
+                        if ($current_authors != $new_authors) {
+                            $s += "</ul><h3>" + $new_authors + "</h3><ul>";
+                            $current_authors = $new_authors;
                         }
 
                         $s += "<li><p>";
@@ -152,31 +150,30 @@ alt="web analytics"></a></div></noscript>
                         $s += "<br>"
                         $s += "<b>Topic</b>: " + $(this).find("topic").text();
                         $s += "</p></li>";
-                        }
-                        );
-        $s += "</ul></section>";
-        
-        $publist = document.getElementById("publist");
-        $publist.parentNode.removeChild($publist);
+                    }
+                );
+                $s += "</ul></section>";
 
-        $('body').append($s);
-	}
+                $publist = document.getElementById("publist");
+                $publist.parentNode.removeChild($publist);
 
-    function xmlFctByTopic(xml) {
-        $papers = $(xml).find('paper').get();
-        $papers.sort(function(a,b) {
-                     return $(a).find("topic").text() > $(b).find("topic").text() ? 1 : -1;
-                     }
-                     );
+                $('body').append($s);
+            }
 
-        $current_topic = "";
+            function xmlFctByTopic(xml) {
+                $papers = $(xml).find('paper').get();
+                $papers.sort(function (a, b) {
+                    return $(a).find("topic").text() > $(b).find("topic").text() ? 1 : -1;
+                }
+                );
 
-    	$s = "<section id='publist'> <ul>";
-        $($papers).each(
-                function (i) {
+                $current_topic = "";
+
+                $s = "<section id='publist'> <ul>";
+                $($papers).each(
+                    function (i) {
                         $new_topic = $(this).find("topic").text();
-                        if ($current_topic != $new_topic)
-                        {
+                        if ($current_topic != $new_topic) {
                             $s += "</ul><h3>" + $new_topic + "</h3> <ul>";
                             $current_topic = $new_topic;
                         }
@@ -188,50 +185,50 @@ alt="web analytics"></a></div></noscript>
                         $s += "[<a href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                         $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
                         $s += "<p></li>";
-                }
+                    }
                 );
-        $s += "</ul></section>";
-        
-        $publist = document.getElementById("publist");
-        $publist.parentNode.removeChild($publist);
-        
-        $('body').append($s);
-	}
+                $s += "</ul></section>";
 
-    function loadXMLFirst() {
-        $.get("scripts/publications.xml", {}, xmlFct);    
-    }
-    
-    function loadXML() {
-        var sortorder = document.forms["myform"].sortorder;
+                $publist = document.getElementById("publist");
+                $publist.parentNode.removeChild($publist);
 
-        switch(sortorder.value)
-        {
-            case "chrono":
-               $.get("scripts/publications.xml", {}, xmlFctByChrono);
-               break;
-            case "year":
-               $.get("scripts/publications.xml", {}, xmlFctByYear);
-               break;
-            case "author":
-               $.get("scripts/publications.xml", {}, xmlFctByAuthor);
-               break;
-            case "topic":
-               $.get("scripts/publications.xml", {}, xmlFctByTopic);
-               break;
-            default:
-        }
-    }
-    
-    function update(savedIndex) {
-        jQuery(loadXML);
-        document.forms["myform"].sortorder.options[savedIndex].selected = true;
-    }
-    
-    jQuery(loadXMLFirst);
+                $('body').append($s);
+            }
 
-</script>
+            function loadXMLFirst() {
+                $.get("/papers/publications.xml", {}, xmlFct);
+            }
 
-</form>
+            function loadXML() {
+                var sortorder = document.forms["myform"].sortorder;
+
+                switch (sortorder.value) {
+                    case "chrono":
+                        $.get("/papers/publications.xml", {}, xmlFctByChrono);
+                        break;
+                    case "year":
+                        $.get("/papers/publications.xml", {}, xmlFctByYear);
+                        break;
+                    case "author":
+                        $.get("/papers/publications.xml", {}, xmlFctByAuthor);
+                        break;
+                    case "topic":
+                        $.get("/papers/publications.xml", {}, xmlFctByTopic);
+                        break;
+                    default:
+                }
+            }
+
+            function update(savedIndex) {
+                jQuery(loadXML);
+                document.forms["myform"].sortorder.options[savedIndex].selected = true;
+            }
+
+            jQuery(loadXMLFirst);
+
+        </script>
+
+    </form>
 </body>
+
 </html>

@@ -4,7 +4,7 @@
     <paper>
         <title>Reporting exact and approximate regular expression matches</title>
         <authors>Katia Guimaraes, Eugene W. Myers and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper001.pdf</file_name>
+        <file_name>/papers/paper001.pdf</file_name>
         <published>Proc. Ninth Combinatorial Pattern Matching Conference, Springer LNCS 1448:91-103</published>
         <year>1998</year>
         <topic>Algorithms</topic>
@@ -13,7 +13,7 @@
     <paper>
         <title>On the computational complexity of L1-approximation</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper002.pdf</file_name>
+        <file_name>/papers/paper002.pdf</file_name>
         <published>Mathematical Logic Quarterly, 48(1):66-77</published>
         <year>2002</year>
         <topic>Complexity theory</topic>
@@ -22,7 +22,7 @@
     <paper>
         <title>Proof mining in L1 approximation</title>
         <authors>Ulrich Kohlenbach and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper003.pdf</file_name>
+        <file_name>/papers/paper003.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 121:1-38</published>
         <year>2003</year>
         <topic>Proof mining</topic>
@@ -31,7 +31,7 @@
     <paper>
         <title>Proof mining: A systematic way of analyzing proofs in mathematic</title>
         <authors>Ulrich Kohlenbach and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper004.pdf</file_name>
+        <file_name>/papers/paper004.pdf</file_name>
         <published>Proc. Steklov Inst. Math, 242:136-164</published>
         <year>2003</year>
         <topic>Proof mining</topic>
@@ -40,7 +40,7 @@
     <paper>
         <title>Polynomial-time algorithms from ineffective proofs</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper005.pdf</file_name>
+        <file_name>/papers/paper005.pdf</file_name>
         <published>Proceedings of LICS, 128-137</published>
         <year>2003</year>
         <topic>Complexity theory</topic>
@@ -49,7 +49,7 @@
     <paper>
         <title>Proof Mining in Subsystems of Analysis</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/dissertation.pdf</file_name>
+        <file_name>/papers/dissertation.pdf</file_name>
         <published>PhD dissertation, 198 pages, BRICS, July</published>
         <year>2003</year>
         <topic>Proof mining</topic>
@@ -58,7 +58,7 @@
     <paper>
         <title>Modified bar recursion and classical dependent choice</title>
         <authors>Ulrich Berger and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper006.pdf</file_name>
+        <file_name>/papers/paper006.pdf</file_name>
         <published>Lecture Notes in Logic, 20:89-107</published>
         <year>2005</year>
         <topic>Interpretations of Analysis: Bar recursion</topic>
@@ -67,7 +67,7 @@
     <paper>
         <title>Bounded functional interpretation</title>
         <authors>Fernando Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper007.pdf</file_name>
+        <file_name>/papers/paper007.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 135:73-112</published>
         <year>2005</year>
         <topic>Functional interpretations: Approximate functional interpretations</topic>
@@ -76,7 +76,7 @@
     <paper>
         <title>Bounded functional interpretation and feasible analysis</title>
         <authors>Fernando Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper008.pdf</file_name>
+        <file_name>/papers/paper008.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 145(2):115-129</published>
         <year>2007</year>
         <topic>Functional interpretations: Approximate functional interpretations</topic>
@@ -85,7 +85,7 @@
     <paper>
         <title>Modified bar recursion</title>
         <authors>Ulrich Berger and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper009.pdf</file_name>
+        <file_name>/papers/paper009.pdf</file_name>
         <published>Mathematical Structures in Computer Science, 16(2):163-183</published>
         <year>2006</year>
         <topic>Interpretations of Analysis: Bar recursion</topic>
@@ -94,16 +94,14 @@
     <paper>
         <title>Unifying functional interpretations</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper010.pdf</file_name>
+        <file_name>/papers/paper010.pdf</file_name>
         <published>Notre Dame Journal of Formal Logic, 47(2):263-290</published>
         <year>2006</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
-    </paper>
-
-    <paper>
+    </paper> s <paper>
         <title>Understanding and using Spector's bar recursive interpretation of classical analysis</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper011.pdf</file_name>
+        <file_name>/papers/paper011.pdf</file_name>
         <published>Proceedings of CiE'2006, LNCS 3988:423-434, Springer</published>
         <year>2006</year>
         <topic>Interpretations of Analysis: Bar recursion</topic>
@@ -112,7 +110,7 @@
     <paper>
         <title>Hoare logic in the abstract</title>
         <authors>Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper012.pdf</file_name>
+        <file_name>/papers/paper012.pdf</file_name>
         <published>Proceedings of CSL'2006, LNCS 4207:501-515, Springer</published>
         <year>2006</year>
         <topic>Hoare logic for continuous systems</topic>
@@ -121,7 +119,7 @@
     <paper>
         <title>Modified realizability interpretation of classical linear logic</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper013.pdf</file_name>
+        <file_name>/papers/paper013.pdf</file_name>
         <published>Proceedings of LICS, 431-440</published>
         <year>2007</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -130,7 +128,7 @@
     <paper>
         <title>Computational interpretations of classical linear logic</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper014.pdf</file_name>
+        <file_name>/papers/paper014.pdf</file_name>
         <published>Proceedings of WoLLIC'07, LNCS 4576:285-296</published>
         <year>2007</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -139,7 +137,7 @@
     <paper>
         <title>Reasoning about linear systems</title>
         <authors>Rob Arthan, Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper015.pdf</file_name>
+        <file_name>/papers/paper015.pdf</file_name>
         <published>Proceedings of SEFM</published>
         <year>2007</year>
         <topic>Hoare logic for continuous systems</topic>
@@ -148,7 +146,7 @@
     <paper>
         <title>On Krivine's realizability interpretation of classical second-order arithmetic</title>
         <authors>Paulo Oliva and Thomas Streicher</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper016.pdf</file_name>
+        <file_name>/papers/paper016.pdf</file_name>
         <published>Fundamenta Informaticae, 84(2):207-220</published>
         <year>2008</year>
         <topic>Interpretations of Analysis: Krivine realizability</topic>
@@ -157,7 +155,7 @@
     <paper>
         <title>An analysis of Gödel's dialectica interpretation via linear logic</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper017.pdf</file_name>
+        <file_name>/papers/paper017.pdf</file_name>
         <published>dialectica, 62:269-290</published>
         <year>2008</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -166,7 +164,7 @@
     <paper>
         <title>Hybrid functional interpretations</title>
         <authors>Mircea-Dan Hernest and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper018.pdf</file_name>
+        <file_name>/papers/paper018.pdf</file_name>
         <published>Proceedings of CiE'08, LNCS 5028:251-260, Springer</published>
         <year>2008</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -175,7 +173,7 @@
     <paper>
         <title>Functional interpretations of intuitionistic linear logic</title>
         <authors>Gilda Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper019.pdf</file_name>
+        <file_name>/papers/paper019.pdf</file_name>
         <published>Proceedings of CSL'09, LNCS 5771:3-19, Springer</published>
         <year>2009</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -184,7 +182,7 @@
     <paper>
         <title>A general framework for sound and complete Floyd-Hoare logics</title>
         <authors>Rob Arthan, Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper020.pdf</file_name>
+        <file_name>/papers/paper020.pdf</file_name>
         <published>ACM Transactions of Computational Logic, 11(1):1-31</published>
         <year>2009</year>
         <topic>Hoare logic for continuous systems</topic>
@@ -193,7 +191,7 @@
     <paper>
         <title>Confined modified realizability</title>
         <authors>Gilda Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper021.pdf</file_name>
+        <file_name>/papers/paper021.pdf</file_name>
         <published>Mathematical Logic Quarterly, 56(1):13-28</published>
         <year>2010</year>
         <topic>Functional interpretations: Approximate functional interpretations</topic>
@@ -202,7 +200,7 @@
     <paper>
         <title>Selection functions, bar recursion and backward induction</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper022.pdf</file_name>
+        <file_name>/papers/paper022.pdf</file_name>
         <published>Mathematical Structures in Computer Science, 20(2):127-168</published>
         <year>2010</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
@@ -211,7 +209,7 @@
     <paper>
         <title>Computational interpretations of analysis via products of selection functions</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper023.pdf</file_name>
+        <file_name>/papers/paper023.pdf</file_name>
         <published>Proceedings of CiE 2010, LNCS 6158:141-150</published>
         <year>2010</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
@@ -220,7 +218,7 @@
     <paper>
         <title>The Peirce translation and the double negation shift</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper024.pdf</file_name>
+        <file_name>/papers/paper024.pdf</file_name>
         <published>Proceedings of CiE 2010, LNCS 6158:151-161</published>
         <year>2010</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
@@ -228,9 +226,9 @@
 
     <paper>
         <title>Searchable sets, Dubuc-Penon compactness, omniscience principles, and the drinker
-            paradox</title>
+    paradox</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper025.pdf</file_name>
+        <file_name>/papers/paper025.pdf</file_name>
         <published>Proceedings of CiE 2010</published>
         <year>2010</year>
         <topic>Others</topic>
@@ -239,7 +237,7 @@
     <paper>
         <title>Functional interpretations of linear and intuitionistic logic</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper026.pdf</file_name>
+        <file_name>/papers/paper026.pdf</file_name>
         <published>Information and Computation, 208(5):565-577</published>
         <year>2010</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -248,7 +246,7 @@
     <paper>
         <title>Proof interpretations with truth</title>
         <authors>Jaime Gaspar and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper027.pdf</file_name>
+        <file_name>/papers/paper027.pdf</file_name>
         <published>Mathematical Logic Quarterly, 56(6):591-610</published>
         <year>2010</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -256,11 +254,11 @@
 
     <paper>
         <title>What sequential games, the Tychnoff theorem and the double-negation shift have in
-            common</title>
+    common</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper031.pdf</file_name>
+        <file_name>/papers/paper031.pdf</file_name>
         <published>Proceedings of MSFP 2010, ACM SIGPLAN Mathematically Structured Functional
-            Programming, 21-32</published>
+    Programming, 21-32</published>
         <year>2010</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
     </paper>
@@ -268,9 +266,9 @@
     <paper>
         <title>On various negative translations</title>
         <authors>Gilda Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper028.pdf</file_name>
+        <file_name>/papers/paper028.pdf</file_name>
         <published>Proceedings of CL and C, Electronic Proceedings in Theoretical Computer Science
-            47, 21–33</published>
+    47, 21–33</published>
         <year>2011</year>
         <comments>version in proceeding does not contain proofs. See pdf below for extended version</comments>
         <topic>Negative translations</topic>
@@ -279,7 +277,7 @@
     <paper>
         <title>Functional interpretations of intuitionistic linear logic</title>
         <authors>Gilda Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper030.pdf</file_name>
+        <file_name>/papers/paper030.pdf</file_name>
         <published>Logical Methods in Computer Science, 7(1):paper09</published>
         <year>2011</year>
         <comments>extended version of homonymous CSL'09 invited talk/abstract</comments>
@@ -289,7 +287,7 @@
     <paper>
         <title>Sequential games and optimal strategies</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper032.pdf</file_name>
+        <file_name>/papers/paper032.pdf</file_name>
         <published>Proceedings of the Royal Society A, 467:1519-1545</published>
         <year>2011</year>
         <topic>Game theory</topic>
@@ -298,7 +296,7 @@
     <paper>
         <title>System T and the product of selection functions</title>
         <authors>Martín Escardó, Paulo Oliva and Thomas Powell</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper033.pdf</file_name>
+        <file_name>/papers/paper033.pdf</file_name>
         <published>Proceedings of Computer Science Logic (CSL)</published>
         <year>2011</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
@@ -307,7 +305,7 @@
     <paper>
         <title>Hybrid functional interpretations of linear and intuitionistic logic</title>
         <authors>Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper029.pdf</file_name>
+        <file_name>/papers/paper029.pdf</file_name>
         <published>Journal of Logic and Computation, 22(2):305-328</published>
         <year>2012</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
@@ -316,7 +314,7 @@
     <paper>
         <title>On bounded functional interpretations</title>
         <authors>Gilda Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper034.pdf</file_name>
+        <file_name>/papers/paper034.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 163(8):1030-1049</published>
         <year>2012</year>
         <topic>Functional interpretations: Approximate functional interpretations</topic>
@@ -325,7 +323,7 @@
     <paper>
         <title>The Peirce translation</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper035.pdf</file_name>
+        <file_name>/papers/paper035.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 163(6):681-692</published>
         <year>2012</year>
         <topic>Negative translations</topic>
@@ -334,7 +332,7 @@
     <paper>
         <title>A Hoare logic for linear systems</title>
         <authors>Rob Arthan, Ursula Martin and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper036.pdf</file_name>
+        <file_name>/papers/paper036.pdf</file_name>
         <published>Formal Aspects of Computing (available online since 11 May 2011)</published>
         <year>2011</year>
         <topic>Hoare logic for continuous systems</topic>
@@ -343,7 +341,7 @@
     <paper>
         <title>On Spector's bar recursion</title>
         <authors>Paulo Oliva and Thomas Powell</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper037.pdf</file_name>
+        <file_name>/papers/paper037.pdf</file_name>
         <published>Mathematical Logic Quarterly, 58(4-5):356-365</published>
         <year>2012</year>
         <topic>Interpretations of Analysis: Bar recursion</topic>
@@ -352,9 +350,9 @@
     <paper>
         <title>On the relation between various negative translations</title>
         <authors>Gilda Ferreira and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper039.pdf</file_name>
+        <file_name>/papers/paper039.pdf</file_name>
         <published>Logic, Construction, Computation, Ontos-Verlag Mathematical Logic Series, vol 3,
-            227-258</published>
+    227-258</published>
         <year>2012</year>
         <topic>Negative translations</topic>
     </paper>
@@ -362,16 +360,16 @@
     <paper>
         <title>Computing Nash equilibria of unbounded games</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper041.pdf</file_name>
+        <file_name>/papers/paper041.pdf</file_name>
         <published>Proceedings of The Turing Centenary Conference, EPiC Series, vol. 10, 53-65,
-            Manchester</published>
+    Manchester</published>
         <year>2012</year>
         <topic>Game theory</topic>
     </paper>
 
     <paper>
         <title>A constructive interpretation of Ramsey's theorem via the product of selection
-            functions</title>
+    functions</title>
         <authors>Paulo Oliva and Thomas Powell</authors>
         <file_name>http://journals.cambridge.org/action/displayAbstract?aid=9414884</file_name>
         <published>Mathematical Structures in Computer Science, 24 pages</published>
@@ -382,7 +380,7 @@
     <paper>
         <title>(Dual) hoops have unique halving</title>
         <authors>Rob Arthan and Paulo Oliva</authors>
-        <file_name>https://webspace.eecs.qmul.ac.uk/p.oliva/papers/paper040.pdf</file_name>
+        <file_name>/papers/paper040.pdf</file_name>
         <published>McCune Festschrift, LNAI 7788, pp. 165-180</published>
         <year>2013</year>
         <topic>Substructural logic</topic>
@@ -393,7 +391,7 @@
         <authors>Paulo Oliva</authors>
         <file_name>http://arxiv.org/abs/1410.4364</file_name>
         <published>Logic, Methodology and Philosophy of Science. Proceedings of the Fourteenth
-            International Congress (Nancy), 97–122</published>
+    International Congress (Nancy), 97–122</published>
         <year>2014</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
     </paper>
@@ -474,7 +472,7 @@
         <title>The Herbrand functional interpretation of the double negation shift</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
         <file_name>
-            https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/herbrand-functional-interpretation-of-the-double-negation-shift/21F52B85DDF053CA4839C2680906E1CD</file_name>
+    https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/herbrand-functional-interpretation-of-the-double-negation-shift/21F52B85DDF053CA4839C2680906E1CD</file_name>
         <published>The Journal of Symbolic Logic</published>
         <year>2017</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
@@ -511,7 +509,7 @@
         <title>A direct proof of Schwichtenberg's bar recursion closure theorem</title>
         <authors>Paulo Oliva and Silvia Steila</authors>
         <file_name>
-            https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/direct-proof-of-schwichtenbergs-bar-recursion-closure-theorem/F22443746F35F8D74267925C69D2712E</file_name>
+    https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/direct-proof-of-schwichtenbergs-bar-recursion-closure-theorem/F22443746F35F8D74267925C69D2712E</file_name>
         <published>The Journal of Symbolic Logic, 83(1):70-83</published>
         <year>2018</year>
         <topic>Interpretations of Analysis: Bar recursion</topic>
@@ -645,7 +643,7 @@
 
     <paper>
         <title>Convergence Rates for the Robbins-Monro Method via a Quantitative Analysis of
-            Dvoretzky’s Theorem</title>
+    Dvoretzky’s Theorem</title>
         <authors>Rob Arthan and Paulo Oliva</authors>
         <file_name></file_name>
         <published>In preparation</published>
