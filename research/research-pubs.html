@@ -41,6 +41,11 @@
                 $s += "[<a href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
                 $s += "<br>"
+                // if it has extra material, add it
+                if ($(this).find("extra").length > 0) {
+                    $s += $(this).find("extra").html();
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }

@@ -98,7 +98,9 @@
         <published>Notre Dame Journal of Formal Logic, 47(2):263-290</published>
         <year>2006</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
-    </paper> s <paper>
+    </paper>
+
+    <paper>
         <title>Understanding and using Spector's bar recursive interpretation of classical analysis</title>
         <authors>Paulo Oliva</authors>
         <file_name>/papers/paper011.pdf</file_name>
@@ -226,7 +228,7 @@
 
     <paper>
         <title>Searchable sets, Dubuc-Penon compactness, omniscience principles, and the drinker
-    paradox</title>
+            paradox</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
         <file_name>/papers/paper025.pdf</file_name>
         <published>Proceedings of CiE 2010</published>
@@ -254,11 +256,11 @@
 
     <paper>
         <title>What sequential games, the Tychnoff theorem and the double-negation shift have in
-    common</title>
+            common</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
         <file_name>/papers/paper031.pdf</file_name>
         <published>Proceedings of MSFP 2010, ACM SIGPLAN Mathematically Structured Functional
-    Programming, 21-32</published>
+            Programming, 21-32</published>
         <year>2010</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
     </paper>
@@ -268,7 +270,7 @@
         <authors>Gilda Ferreira and Paulo Oliva</authors>
         <file_name>/papers/paper028.pdf</file_name>
         <published>Proceedings of CL and C, Electronic Proceedings in Theoretical Computer Science
-    47, 21–33</published>
+            47, 21–33</published>
         <year>2011</year>
         <comments>version in proceeding does not contain proofs. See pdf below for extended version</comments>
         <topic>Negative translations</topic>
@@ -352,7 +354,7 @@
         <authors>Gilda Ferreira and Paulo Oliva</authors>
         <file_name>/papers/paper039.pdf</file_name>
         <published>Logic, Construction, Computation, Ontos-Verlag Mathematical Logic Series, vol 3,
-    227-258</published>
+            227-258</published>
         <year>2012</year>
         <topic>Negative translations</topic>
     </paper>
@@ -362,14 +364,14 @@
         <authors>Martín Escardó and Paulo Oliva</authors>
         <file_name>/papers/paper041.pdf</file_name>
         <published>Proceedings of The Turing Centenary Conference, EPiC Series, vol. 10, 53-65,
-    Manchester</published>
+            Manchester</published>
         <year>2012</year>
         <topic>Game theory</topic>
     </paper>
 
     <paper>
         <title>A constructive interpretation of Ramsey's theorem via the product of selection
-    functions</title>
+            functions</title>
         <authors>Paulo Oliva and Thomas Powell</authors>
         <file_name>http://journals.cambridge.org/action/displayAbstract?aid=9414884</file_name>
         <published>Mathematical Structures in Computer Science, 24 pages</published>
@@ -391,7 +393,7 @@
         <authors>Paulo Oliva</authors>
         <file_name>http://arxiv.org/abs/1410.4364</file_name>
         <published>Logic, Methodology and Philosophy of Science. Proceedings of the Fourteenth
-    International Congress (Nancy), 97–122</published>
+            International Congress (Nancy), 97–122</published>
         <year>2014</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
     </paper>
@@ -472,7 +474,7 @@
         <title>The Herbrand functional interpretation of the double negation shift</title>
         <authors>Martín Escardó and Paulo Oliva</authors>
         <file_name>
-    https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/herbrand-functional-interpretation-of-the-double-negation-shift/21F52B85DDF053CA4839C2680906E1CD</file_name>
+            https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/herbrand-functional-interpretation-of-the-double-negation-shift/21F52B85DDF053CA4839C2680906E1CD</file_name>
         <published>The Journal of Symbolic Logic</published>
         <year>2017</year>
         <topic>Interpretations of Analysis: Selection functions</topic>
@@ -509,7 +511,7 @@
         <title>A direct proof of Schwichtenberg's bar recursion closure theorem</title>
         <authors>Paulo Oliva and Silvia Steila</authors>
         <file_name>
-    https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/direct-proof-of-schwichtenbergs-bar-recursion-closure-theorem/F22443746F35F8D74267925C69D2712E</file_name>
+            https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/direct-proof-of-schwichtenbergs-bar-recursion-closure-theorem/F22443746F35F8D74267925C69D2712E</file_name>
         <published>The Journal of Symbolic Logic, 83(1):70-83</published>
         <year>2018</year>
         <topic>Interpretations of Analysis: Bar recursion</topic>
@@ -530,6 +532,9 @@
         <file_name>https://www.springer.com/gp/book/9783030284824</file_name>
         <published>Proof Technology in Mathematics Research and Teaching, 91-111</published>
         <year>2019</year>
+        <extra>
+            <a href="/PTMRT/">Supporting material</a>
+        </extra>
         <topic>Substructural logic</topic>
     </paper>
 
@@ -643,7 +648,7 @@
 
     <paper>
         <title>Convergence Rates for the Robbins-Monro Method via a Quantitative Analysis of
-    Dvoretzky’s Theorem</title>
+            Dvoretzky’s Theorem</title>
         <authors>Rob Arthan and Paulo Oliva</authors>
         <file_name></file_name>
         <published>In preparation</published>
