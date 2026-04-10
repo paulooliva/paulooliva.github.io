@@ -93,7 +93,8 @@
 
     <paper>
         <title>A parametrised functional interpretation of Heyting arithmetic</title>
-        <authors>Bruno Dinis and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://scholar.google.com/citations?user=gDxotnMAAAAJ">Bruno
+            Dinis</a> and Paulo Oliva</authors>
         <file_name>https://www.sciencedirect.com/science/article/abs/pii/S0168007220301640</file_name>
         <published>Annals of Pure and Applied Logic, 172:4</published>
         <year>2021</year>
@@ -121,7 +122,9 @@
 
     <paper>
         <title>Kripke semantics for intuitionistic Lukasiewicz logic</title>
-        <authors>Andrew Lewis, Paulo Oliva and Edmund Robinson</authors>
+        <authors>Andrew Lewis, Paulo Oliva and <a target="_blank"
+                href="https://www.qmul.ac.uk/eecs/people/profiles/robinsonedmund.html">Edmund
+            Robinson</a></authors>
         <file_name>https://link.springer.com/article/10.1007/s11225-020-09908-z</file_name>
         <published>Studia Logica, vol 109, pages 313–339</published>
         <year>2020</year>
@@ -173,7 +176,8 @@
 
     <paper>
         <title>Higher-order decision theory</title>
-        <authors>Jules Hedges, Paulo Oliva, Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
+        <authors><a target="_blank" href="https://julesh.com/">Jules Hedges</a>, Paulo Oliva,
+            Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
         <file_name>https://arxiv.org/abs/1506.01003</file_name>
         <published>Proceedings of the 5th International Conference on Algorithmic Decision Theory</published>
         <year>2017</year>
@@ -182,7 +186,8 @@
 
     <paper>
         <title>Selection equilibria of higher-order games</title>
-        <authors>Jules Hedges, Paulo Oliva, Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
+        <authors><a target="_blank" href="https://julesh.com/">Jules Hedges</a>, Paulo Oliva,
+            Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
         <file_name />
         <published>Nineteenth International Symposium on Practical Aspects of Declarative Languages</published>
         <year>2017</year>
@@ -211,7 +216,8 @@
 
     <paper>
         <title>Representing strategic games with higher-order functions</title>
-        <authors>Jules Hedges, Paulo Oliva, Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
+        <authors><a target="_blank" href="https://julesh.com/">Jules Hedges</a>, Paulo Oliva,
+            Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
         <file_name>https://arxiv.org/abs/1506.01002</file_name>
         <published>arXiv report</published>
         <year>2015</year>
@@ -229,7 +235,8 @@
 
     <paper>
         <title>A higher-order framework for decision problems and games</title>
-        <authors>Jules Hedges, Paulo Oliva, Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
+        <authors><a target="_blank" href="https://julesh.com/">Jules Hedges</a>, Paulo Oliva,
+            Evguenia Winschel, Viktor Winschel and Philipp Zahn</authors>
         <file_name>http://arxiv.org/abs/1409.7411</file_name>
         <published>arXiv report</published>
         <year>2014</year>
