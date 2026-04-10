@@ -5,7 +5,8 @@
     <paper>
         <title>Convergence Rates for the Robbins-Monro Method via a Quantitative Analysis of
             Dvoretzky’s Theorem</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name />
         <published>In preparation</published>
         <year>2026</year>
@@ -14,7 +15,8 @@
 
     <paper>
         <title>A Systematic Way of Analysing Proofs in Probability Theory</title>
-        <authors>Morenikeji Neri, Paulo Oliva and Nicholas Pischke</authors>
+        <authors><a target="_blank" href="https://kejineri.github.io/">Morenikeji Neri</a>, Paulo
+            Oliva and <a target="_blank" href="https://nicholaspischke.github.io/">Nicholas Pischke</a></authors>
         <file_name>https://arxiv.org/abs/2604.08078</file_name>
         <published>arXiv report (submitted)</published>
         <year>2026</year>
@@ -23,7 +25,8 @@
 
     <paper>
         <title>Uniform Realizability Interpretations</title>
-        <authors>Ulrich Berger and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.swansea.ac.uk/staff/u.berger/">Ulrich Berger</a>
+            and Paulo Oliva</authors>
         <file_name>https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LTT2026.3</file_name>
         <published>Electronic Proceedings in Theoretical Computer Science, 441, 46-61</published>
         <year>2026</year>
@@ -32,7 +35,9 @@
 
     <paper>
         <title>The Uniform Functional Interpretation with Informative Types</title>
-        <authors>Fernando Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank"
+                href="https://www.acad-ciencias.pt/eng/scholars/fernando-ferreira/">Fernando
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>https://arxiv.org/abs/2508.12781</file_name>
         <published>arXiv report (submitted for publication)</published>
         <year>2026</year>
@@ -60,7 +65,8 @@
 
     <paper>
         <title>On the Borel-Cantelli Lemmas, the Erdós-Rényi Theorem, and the Kochen-Stone Theorem</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>http://logicandanalysis.org/index.php/jla/article/view/412/178</file_name>
         <published>Journal of Logic and Analysis, 13:6, pages 1–23</published>
         <year>2021</year>
@@ -96,7 +102,8 @@
 
     <paper>
         <title>Double Negation Semantics for Generalisations of Heyting Algebras</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>https://link.springer.com/article/10.1007/s11225-020-09909-y</file_name>
         <published>Studia Logica, vol 109, pages 341–365</published>
         <year>2021</year>
@@ -123,7 +130,8 @@
 
     <paper>
         <title>Studying algebraic structures using Prover9 and Mace4</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>https://www.springer.com/gp/book/9783030284824</file_name>
         <published>Proof Technology in Mathematics Research and Teaching, 91-111</published>
         <year>2019</year>
@@ -135,7 +143,8 @@
 
     <paper>
         <title>Negative translations for affine and Lukasiewicz logic</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>https://arxiv.org/abs/1912.00012</file_name>
         <published>arXiv report</published>
         <year>2019</year>
@@ -154,7 +163,8 @@
 
     <paper>
         <title>A Curry-Howard correspondence for the minimal fragment Lukasiewicz logic</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>https://arxiv.org/abs/1809.04492</file_name>
         <published>arXiv report</published>
         <year>2018</year>
@@ -192,7 +202,7 @@
 
     <paper>
         <title>Bar recursion over finite partial functions</title>
-        <authors>Paulo Oliva and Thomas Powell</authors>
+        <authors>Paulo Oliva and <a target="_blank" href="https://t-powell.github.io/">Thomas Powell</a></authors>
         <file_name>http://dx.doi.org/10.1016/j.apal.2016.11.003</file_name>
         <published>Annals of Pure and Applied Logic</published>
         <year>2017</year>
@@ -228,7 +238,8 @@
 
     <paper>
         <title>On pocrims and hoops</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>http://arxiv.org/abs/1404.0816</file_name>
         <published>arXiv report</published>
         <year>2014</year>
@@ -237,7 +248,8 @@
 
     <paper>
         <title>On affine logic and Lukasiewicz logic</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>http://arxiv.org/abs/1404.0570</file_name>
         <published>arXiv report</published>
         <year>2014</year>
@@ -256,7 +268,7 @@
 
     <paper>
         <title>A game-theoretic computational interpretation of proofs in classical analysis</title>
-        <authors>Paulo Oliva and Thomas Powell</authors>
+        <authors>Paulo Oliva and <a target="_blank" href="https://t-powell.github.io/">Thomas Powell</a></authors>
         <file_name>http://arxiv.org/abs/1204.5244</file_name>
         <published>Gentzen's Centenary: The Quest for Consistency, 501-531, Springer</published>
         <year>2015</year>
@@ -275,7 +287,8 @@
 
     <paper>
         <title>(Dual) hoops have unique halving</title>
-        <authors>Rob Arthan and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
+            and Paulo Oliva</authors>
         <file_name>/papers/paper040.pdf</file_name>
         <published>McCune Festschrift, LNAI 7788, pp. 165-180</published>
         <year>2013</year>
@@ -285,7 +298,7 @@
     <paper>
         <title>A constructive interpretation of Ramsey's theorem via the product of selection
             functions</title>
-        <authors>Paulo Oliva and Thomas Powell</authors>
+        <authors>Paulo Oliva and <a target="_blank" href="https://t-powell.github.io/">Thomas Powell</a></authors>
         <file_name>http://journals.cambridge.org/action/displayAbstract?aid=9414884</file_name>
         <published>Mathematical Structures in Computer Science, 24 pages</published>
         <year>2014</year>
@@ -305,7 +318,8 @@
 
     <paper>
         <title>On the relation between various negative translations</title>
-        <authors>Gilda Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://webpages.ciencias.ulisboa.pt/~gmferreira/">Gilda
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper039.pdf</file_name>
         <published>Logic, Construction, Computation, Ontos-Verlag Mathematical Logic Series, vol 3,
             227-258</published>
@@ -315,7 +329,7 @@
 
     <paper>
         <title>On Spector's bar recursion</title>
-        <authors>Paulo Oliva and Thomas Powell</authors>
+        <authors>Paulo Oliva and <a target="_blank" href="https://t-powell.github.io/">Thomas Powell</a></authors>
         <file_name>/papers/paper037.pdf</file_name>
         <published>Mathematical Logic Quarterly, 58(4-5):356-365</published>
         <year>2012</year>
@@ -324,7 +338,8 @@
 
     <paper>
         <title>A Hoare logic for linear systems</title>
-        <authors>Rob Arthan, Ursula Martin and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>,
+            Ursula Martin and Paulo Oliva</authors>
         <file_name>/papers/paper036.pdf</file_name>
         <published>Formal Aspects of Computing (available online since 11 May 2011)</published>
         <year>2011</year>
@@ -343,7 +358,8 @@
 
     <paper>
         <title>On bounded functional interpretations</title>
-        <authors>Gilda Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://webpages.ciencias.ulisboa.pt/~gmferreira/">Gilda
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper034.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 163(8):1030-1049</published>
         <year>2012</year>
@@ -362,7 +378,7 @@
     <paper>
         <title>System T and the product of selection functions</title>
         <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a>,
-            Paulo Oliva and Thomas Powell</authors>
+            Paulo Oliva and <a target="_blank" href="https://t-powell.github.io/">Thomas Powell</a></authors>
         <file_name>/papers/paper033.pdf</file_name>
         <published>Proceedings of Computer Science Logic (CSL)</published>
         <year>2011</year>
@@ -381,7 +397,8 @@
 
     <paper>
         <title>Functional interpretations of intuitionistic linear logic</title>
-        <authors>Gilda Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://webpages.ciencias.ulisboa.pt/~gmferreira/">Gilda
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper030.pdf</file_name>
         <published>Logical Methods in Computer Science, 7(1):paper09</published>
         <year>2011</year>
@@ -391,7 +408,8 @@
 
     <paper>
         <title>On various negative translations</title>
-        <authors>Gilda Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://webpages.ciencias.ulisboa.pt/~gmferreira/">Gilda
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper028.pdf</file_name>
         <published>Proceedings of CL and C, Electronic Proceedings in Theoretical Computer Science
             47, 21–33</published>
@@ -473,7 +491,8 @@
 
     <paper>
         <title>Confined modified realizability</title>
-        <authors>Gilda Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://webpages.ciencias.ulisboa.pt/~gmferreira/">Gilda
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper021.pdf</file_name>
         <published>Mathematical Logic Quarterly, 56(1):13-28</published>
         <year>2010</year>
@@ -482,7 +501,8 @@
 
     <paper>
         <title>A general framework for sound and complete Floyd-Hoare logics</title>
-        <authors>Rob Arthan, Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>,
+            Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
         <file_name>/papers/paper020.pdf</file_name>
         <published>ACM Transactions of Computational Logic, 11(1):1-31</published>
         <year>2009</year>
@@ -491,7 +511,8 @@
 
     <paper>
         <title>Functional interpretations of intuitionistic linear logic</title>
-        <authors>Gilda Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://webpages.ciencias.ulisboa.pt/~gmferreira/">Gilda
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper019.pdf</file_name>
         <published>Proceedings of CSL'09, LNCS 5771:3-19, Springer</published>
         <year>2009</year>
@@ -527,7 +548,8 @@
 
     <paper>
         <title>Reasoning about linear systems</title>
-        <authors>Rob Arthan, Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>,
+            Ursula Martin, Erik Arne Mathiesen and Paulo Oliva</authors>
         <file_name>/papers/paper015.pdf</file_name>
         <published>Proceedings of SEFM</published>
         <year>2007</year>
@@ -581,7 +603,8 @@
 
     <paper>
         <title>Modified bar recursion</title>
-        <authors>Ulrich Berger and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.swansea.ac.uk/staff/u.berger/">Ulrich Berger</a>
+            and Paulo Oliva</authors>
         <file_name>/papers/paper009.pdf</file_name>
         <published>Mathematical Structures in Computer Science, 16(2):163-183</published>
         <year>2006</year>
@@ -590,7 +613,9 @@
 
     <paper>
         <title>Bounded functional interpretation and feasible analysis</title>
-        <authors>Fernando Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank"
+                href="https://www.acad-ciencias.pt/eng/scholars/fernando-ferreira/">Fernando
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper008.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 145(2):115-129</published>
         <year>2007</year>
@@ -599,7 +624,9 @@
 
     <paper>
         <title>Bounded functional interpretation</title>
-        <authors>Fernando Ferreira and Paulo Oliva</authors>
+        <authors><a target="_blank"
+                href="https://www.acad-ciencias.pt/eng/scholars/fernando-ferreira/">Fernando
+            Ferreira</a> and Paulo Oliva</authors>
         <file_name>/papers/paper007.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 135:73-112</published>
         <year>2005</year>
@@ -608,7 +635,8 @@
 
     <paper>
         <title>Modified bar recursion and classical dependent choice</title>
-        <authors>Ulrich Berger and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www.swansea.ac.uk/staff/u.berger/">Ulrich Berger</a>
+            and Paulo Oliva</authors>
         <file_name>/papers/paper006.pdf</file_name>
         <published>Lecture Notes in Logic, 20:89-107</published>
         <year>2005</year>
