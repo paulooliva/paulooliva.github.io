@@ -50,7 +50,8 @@
 
     <paper>
         <title>Higher-order Games with Dependent Types</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>https://www.sciencedirect.com/science/article/pii/S0304397523004243</file_name>
         <published>Theoretical Computer Science, vol 974</published>
         <year>2023</year>
@@ -180,7 +181,8 @@
 
     <paper>
         <title>The Herbrand functional interpretation of the double negation shift</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>
             https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/herbrand-functional-interpretation-of-the-double-negation-shift/21F52B85DDF053CA4839C2680906E1CD</file_name>
         <published>The Journal of Symbolic Logic</published>
@@ -244,7 +246,8 @@
 
     <paper>
         <title>Bar recursion and products of selection functions</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>http://arxiv.org/abs/1407.7046</file_name>
         <published>The Journal of Symbolic Logic, 80(1):1-28</published>
         <year>2015</year>
@@ -291,7 +294,8 @@
 
     <paper>
         <title>Computing Nash equilibria of unbounded games</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper041.pdf</file_name>
         <published>Proceedings of The Turing Centenary Conference, EPiC Series, vol. 10, 53-65,
             Manchester</published>
@@ -329,7 +333,8 @@
 
     <paper>
         <title>The Peirce translation</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper035.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 163(6):681-692</published>
         <year>2012</year>
@@ -356,7 +361,8 @@
 
     <paper>
         <title>System T and the product of selection functions</title>
-        <authors>Martín Escardó, Paulo Oliva and Thomas Powell</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a>,
+            Paulo Oliva and Thomas Powell</authors>
         <file_name>/papers/paper033.pdf</file_name>
         <published>Proceedings of Computer Science Logic (CSL)</published>
         <year>2011</year>
@@ -365,7 +371,8 @@
 
     <paper>
         <title>Sequential games and optimal strategies</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper032.pdf</file_name>
         <published>Proceedings of the Royal Society A, 467:1519-1545</published>
         <year>2011</year>
@@ -396,7 +403,8 @@
     <paper>
         <title>What sequential games, the Tychnoff theorem and the double-negation shift have in
             common</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper031.pdf</file_name>
         <published>Proceedings of MSFP 2010, ACM SIGPLAN Mathematically Structured Functional
             Programming, 21-32</published>
@@ -425,7 +433,8 @@
     <paper>
         <title>Searchable sets, Dubuc-Penon compactness, omniscience principles, and the drinker
             paradox</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper025.pdf</file_name>
         <published>Proceedings of CiE 2010</published>
         <year>2010</year>
@@ -434,7 +443,8 @@
 
     <paper>
         <title>The Peirce translation and the double negation shift</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper024.pdf</file_name>
         <published>Proceedings of CiE 2010, LNCS 6158:151-161</published>
         <year>2010</year>
@@ -443,7 +453,8 @@
 
     <paper>
         <title>Computational interpretations of analysis via products of selection functions</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper023.pdf</file_name>
         <published>Proceedings of CiE 2010, LNCS 6158:141-150</published>
         <year>2010</year>
@@ -452,7 +463,8 @@
 
     <paper>
         <title>Selection functions, bar recursion and backward induction</title>
-        <authors>Martín Escardó and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://martinescardo.github.io/">Martín Escardó</a> and
+            Paulo Oliva</authors>
         <file_name>/papers/paper022.pdf</file_name>
         <published>Mathematical Structures in Computer Science, 20(2):127-168</published>
         <year>2010</year>

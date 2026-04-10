@@ -7,7 +7,18 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="title" type="xs:string" />
-                            <xs:element name="authors" type="xs:string" />
+                            <xs:element name="authors">
+                                <xs:complexType mixed="true">
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name="a">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="href" use="required" />
+                                                <xs:attribute name="target" use="optional" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="file_name" type="xs:string" />
                             <xs:element name="published" type="xs:string" />
                             <xs:element name="year" type="xs:string" />

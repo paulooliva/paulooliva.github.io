@@ -55,7 +55,7 @@
                 $s += "<li><p>";
                 $s += "<b>" + $(this).find("title").text() + "</b>";
                 $s += "<br>";
-                $s += $(this).find("authors").text();
+                $s += $(this).find("authors").html();
                 $s += "<br>";
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
@@ -82,7 +82,7 @@
                 $s += "<li><p>";
                 $s += "<b>" + $(this).find("title").text() + "</b>";
                 $s += "<br>";
-                $s += $(this).find("authors").text();
+                $s += $(this).find("authors").html();
                 $s += "<br>";
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
@@ -125,7 +125,7 @@
                 $s += "<li><p>";
                 $s += "<b>" + $(this).find("title").text() + "</b>";
                 $s += "<br>";
-                $s += $(this).find("authors").text();
+                $s += $(this).find("authors").html();
                 $s += "<br>";
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>"; // + $(this).find("year").text();
@@ -151,7 +151,7 @@
     function xmlFctByAuthor(xml) {
         $papers = $(xml).find('paper').get();
         $papers.sort(function (a, b) {
-            return $(a).find("authors").text() > $(b).find("authors").text() ? 1 : -1;
+            return $(a).find("authors").html() > $(b).find("authors").html() ? 1 : -1;
         }
         );
         $current_authors = "";
@@ -159,7 +159,7 @@
         $s = "<section id='publist'> <ul>";
         $($papers).each(
             function (i) {
-                $new_authors = $(this).find("authors").text();
+                $new_authors = $(this).find("authors").html();
                 if ($current_authors != $new_authors) {
                     $s += "</ul><div class='h5 ml-3'>" + $new_authors + "</div><ul>";
                     $current_authors = $new_authors;
@@ -168,7 +168,7 @@
                 $s += "<li><p>";
                 $s += "<b>" + $(this).find("title").text() + "</b>";
                 $s += "<br>";
-                // $s += $(this).find("authors").text();
+                // $s += $(this).find("authors").html();
                 // $s += "<br>";
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
@@ -211,7 +211,7 @@
                 $s += "<li><p>";
                 $s += "<b>" + $(this).find("title").text() + "</b>";
                 $s += "<br>";
-                $s += $(this).find("authors").text();
+                $s += $(this).find("authors").html();
                 $s += "<br>";
                 $s += "[<a target='_blank' href=\"" + $(this).find("file_name").text() + "\">pdf</a>] ";
                 $s += "<i>" + $(this).find("published").text() + "</i>, " + $(this).find("year").text();
