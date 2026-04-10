@@ -49,7 +49,7 @@
 
     function xmlFct(xml) {
         $papers = $(xml).find('paper').get();
-        $s = "<ul id='publist'>";
+        $s = "<ol id='publist'>";
         $($papers).each(
             function (i) {
                 $s += "<li><p>";
@@ -69,14 +69,14 @@
                 $s += "</p></li>";
             }
         );
-        $s += "</ul>";
+        $s += "</ol>";
 
         $('#pubs').append($s);
     }
 
     function xmlFctByChrono(xml) {
         $papers = $(xml).find('paper').get().reverse();
-        $s = "<ul id='publist'>";
+        $s = "<ol id='publist'>";
         $($papers).each(
             function (i) {
                 $s += "<li><p>";
@@ -97,7 +97,7 @@
                 $s += "</p></li>";
             }
         );
-        $s += "</ul>";
+        $s += "</ol>";
 
         $publist = document.getElementById("publist");
         $publist.parentNode.removeChild($publist);
