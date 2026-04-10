@@ -670,7 +670,8 @@
 
     <paper>
         <title>Proof mining: A systematic way of analyzing proofs in mathematic</title>
-        <authors>Ulrich Kohlenbach and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www2.mathematik.tu-darmstadt.de/~kohlenbach/">Ulrich
+            Kohlenbach</a> and Paulo Oliva</authors>
         <file_name>/papers/paper004.pdf</file_name>
         <published>Proc. Steklov Inst. Math, 242:136-164</published>
         <year>2003</year>
@@ -679,7 +680,8 @@
 
     <paper>
         <title>Proof mining in L1 approximation</title>
-        <authors>Ulrich Kohlenbach and Paulo Oliva</authors>
+        <authors><a target="_blank" href="https://www2.mathematik.tu-darmstadt.de/~kohlenbach/">Ulrich
+            Kohlenbach</a> and Paulo Oliva</authors>
         <file_name>/papers/paper003.pdf</file_name>
         <published>Annals of Pure and Applied Logic, 121:1-38</published>
         <year>2003</year>
