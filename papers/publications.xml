@@ -15,8 +15,8 @@
     <paper>
         <title>A Systematic Way of Analysing Proofs in Probability Theory</title>
         <authors>Morenikeji Neri, Paulo Oliva and Nicholas Pischke</authors>
-        <file_name />
-        <published>https://arxiv.org/abs/2604.08078</published>
+        <file_name>https://arxiv.org/abs/2604.08078</file_name>
+        <published>arXiv report (submitted)</published>
         <year>2026</year>
         <topic>Proof mining</topic>
     </paper>
@@ -24,25 +24,25 @@
     <paper>
         <title>Uniform Realizability Interpretations</title>
         <authors>Ulrich Berger and Paulo Oliva</authors>
-        <file_name />
-        <published>Submitted for publication</published>
-        <year>2025</year>
+        <file_name>https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LTT2026.3</file_name>
+        <published>Electronic Proceedings in Theoretical Computer Science, 441, 46-61</published>
+        <year>2026</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
     </paper>
 
     <paper>
         <title>The Uniform Functional Interpretation with Informative Types</title>
         <authors>Fernando Ferreira and Paulo Oliva</authors>
-        <file_name />
-        <published>Submitted for publication</published>
-        <year>2025</year>
+        <file_name>https://arxiv.org/abs/2508.12781</file_name>
+        <published>arXiv report (submitted for publication)</published>
+        <year>2026</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
     </paper>
 
     <paper>
         <title>Uniform Functional Interpretations</title>
         <authors>Paulo Oliva</authors>
-        <file_name />
+        <file_name>https://dl.acm.org/doi/10.1007/978-3-031-95908-0_7</file_name>
         <published>Computability in Europe 2025, LNCS</published>
         <year>2025</year>
         <topic>Functional interpretations: Unifying functional interpretation</topic>
