@@ -175,6 +175,17 @@
     </paper>
 
     <paper>
+        <title>On Logic, Choices and Games</title>
+        <authors>Paulo Oliva</authors>
+        <file_name>
+            https://www.imaginary.org/snapshot/on-logic-choices-and-games
+        </file_name>
+        <published>Snapshots of modern mathematics from Oberwolfach (2018-2019)</published>
+        <year>2018</year>
+        <topic>Game theory</topic>
+    </paper>
+
+    <paper>
         <title>A Curry-Howard correspondence for the minimal fragment Lukasiewicz logic</title>
         <authors><a target="_blank" href="https://www.lemma-one.com/Arthan/homepage.html">Rob Arthan</a>
             and Paulo Oliva</authors>
