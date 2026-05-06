@@ -2,6 +2,7 @@
 <papers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="publications.xsd">
 
+
     <paper>
         <title>Convergence Rates for the Robbins-Monro Method via a Quantitative Analysis of
             Dvoretzky’s Theorem</title>
@@ -31,6 +32,17 @@
         <published>arXiv report (submitted)</published>
         <year>2026</year>
         <topic>Negative translations</topic>
+    </paper>
+
+    <paper>
+        <title>An Approach Using BRKGA for Optimizing Graph Neural Network Architectures</title>
+        <authors>Andersson Alves da Silva, <a target="_blank"
+                href="https://scholar.google.com/citations?user=eqqC3cwAAAAJ">Ricardo Martins de
+            Abreu Silva</a> and Paulo Oliva</authors>
+        <file_name>https://www.researchsquare.com/article/rs-7467591/v1?redirect=/article/rs-7467591</file_name>
+        <published>Evolutionary Intelligence</published>
+        <year>2026</year>
+        <topic>Artificial intelligence</topic>
     </paper>
 
     <paper>
