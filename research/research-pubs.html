@@ -65,6 +65,11 @@
                     $s += $(this).find("extra").html();
                     $s += "<br>";
                 }
+                // if it has clarification material, add it
+                if ($(this).find("clarification").length > 0) {
+                    $s += "[<a target='_blank' href=\"" + $(this).find("clarification").text() + "\">clarification</a>] ";
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }
@@ -91,6 +96,12 @@
                 if ($(this).find("extra").length > 0) {
                     console.log("has extra material", $(this).find("extra").html());
                     $s += $(this).find("extra").html();
+                    $s += "<br>";
+                }
+                // if it has clarification material, add it
+                if ($(this).find("clarification").length > 0) {
+                    console.log("has clarification material", $(this).find("clarification").html());
+                    $s += "[<a target='_blank' href=\"" + $(this).find("clarification").text() + "\">clarification</a>] ";
                     $s += "<br>";
                 }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
@@ -136,6 +147,12 @@
                     $s += $(this).find("extra").html();
                     $s += "<br>";
                 }
+                // if it has clarification material, add it
+                if ($(this).find("clarification").length > 0) {
+                    console.log("has clarification material", $(this).find("clarification").html());
+                    $s += "[<a target='_blank' href=\"" + $(this).find("clarification").text() + "\">clarification</a>] ";
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }
@@ -179,6 +196,12 @@
                     $s += $(this).find("extra").html();
                     $s += "<br>";
                 }
+                // if it has clarification material, add it
+                if ($(this).find("clarification").length > 0) {
+                    console.log("has clarification material", $(this).find("clarification").html());
+                    $s += "[<a target='_blank' href=\"" + $(this).find("clarification").text() + "\">clarification</a>] ";
+                    $s += "<br>";
+                }
                 $s += "<b>Topic</b>: " + $(this).find("topic").text();
                 $s += "</p></li>";
             }
@@ -220,6 +243,12 @@
                     $s += "<br>";
                     console.log("has extra material", $(this).find("extra").html());
                     $s += $(this).find("extra").html();
+                }
+                // if it has clarification material, add it
+                if ($(this).find("clarification").length > 0) {
+                    console.log("has clarification material", $(this).find("clarification").html());
+                    $s += "<br>";
+                    $s += "[<a target='_blank' href=\"" + $(this).find("clarification").text() + "\">clarification</a>] ";
                 }
                 $s += "</li>";
             }

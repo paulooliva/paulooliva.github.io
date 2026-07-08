@@ -23,6 +23,7 @@
                             <xs:element name="published" type="xs:string" />
                             <xs:element name="year" type="xs:string" />
                             <xs:element name="topic" type="xs:string" />
+                            <xs:element name="clarification" minOccurs="0" type="xs:string" />
                             <xs:element name="extra" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
